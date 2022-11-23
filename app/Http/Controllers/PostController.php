@@ -8,7 +8,7 @@ use illuminate\Http\Request;
 
 class PostController extends Controller 
 {
-    function index(Request $request)
+    function index()
     {
         $title = 'Home' ;
         return view('welcome',[
@@ -18,6 +18,11 @@ class PostController extends Controller
     
      function newsletter(Request $request )
     {  
+        $validated = $request->validate([
+            'email' => 'required'
+                        
+        ]);
+
         $newsletter = new Newsletter();
 
         $newsletter->email = $_POST['email'];
@@ -49,6 +54,7 @@ class PostController extends Controller
 
     function contact()
     {
+    
         $title = 'Contact';
         return view('contact', compact('title'));
     }
