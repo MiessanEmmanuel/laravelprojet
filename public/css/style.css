@@ -1,0 +1,208 @@
+/* =========== barre de navigation por les autre pages a part home =======*/
+#headerother{
+    background-color: #212529;
+
+}
+.logo{
+    width: 300px;
+}
+
+
+  /*--------------------------------------------------------------
+  # about
+  --------------------------------------------------------------*/
+
+.aboutbut-our{
+    align-self:flex-end;
+    margin:0px 0px 25px 18px;
+}
+.txt-our{
+    line-height: 40px;
+    text-align: justify;
+}
+.presentation{
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.4s;
+    position: relative;
+}
+.presentation:hover{
+    transform: translateY(-10px);
+   
+
+}
+ .info-presentation{
+    opacity: 0;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    z-index: 3;
+    right: 12px;
+    top: 0;
+    left: 12px;
+    transition: all 0.6s;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+.info-presentation:hover{
+    opacity: 0.80;
+}
+.info-presentation-text{
+    width: 100%;
+    height: 100%;
+}
+.info-presentation-text-position:hover{
+   opacity:1;
+   z-index:7;
+}
+
+.info-presentation h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  
+  .info-presentation p {
+    color: #f9fcfe;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+.fin_about{
+    overflow: hidden;
+}
+  /*--------------------------------------------------------------
+  # contact
+  --------------------------------------------------------------*/
+#ville_contact{
+    padding-top: 0px;
+}
+.ville_contact_titre,.ville_contact1,.ville_contact2,.ville_contact3{
+    background-color: white;
+    box-sizing: border-box;
+}
+.ville_contact_titre,.ville_contact1,.ville_contact2,.ville_contact3{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+ /*--------------------------------------------------------------
+  # pricing
+  --------------------------------------------------------------*/
+.princing-other #pricing-information .btn{
+  background-color: #47B2E4;
+  color: white;
+}
+.princing-other #pricing-information
+{
+    text-align: justify;
+  }
+.princing-other #pricing-information .boutton-subscribe
+{
+    border : none;
+    width: 200px;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1s;
+    transform-origin: top;
+  }
+.princing-other #pricing-information .boutton-subscribe:hover
+{
+    background-color: #2d708e ;
+    border: none;
+    color: white;
+  }
+.princing-other #pricing-information p
+{
+  line-height: 35px;
+}
+.princing-other .price
+{
+    background-color: #F3F5FA;
+  }
+.icons-data-analytics, .icons-media-marketing, .icons-web-optimization{
+  color: #47B2E4 ;
+}
+#pricing-information .web-optimization,
+#pricing-information .data-analytics,
+#pricing-information .media-marketing
+{
+  z-index: 1;
+ 
+}
+#pricing-information .web-optimization:hover,
+#pricing-information .data-analytics:hover,
+#pricing-information .media-marketing:hover
+{
+  transform: translateY(-10px);
+  z-index: 0;
+  width: 50% !important;
+  transition-property: transform, whidth;
+  transform-origin: 30% 60%;
+  transition-duration: 2s, 2s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1), cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.princing-other h2{
+  font-weight: 700;
+  font-size: 35px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+/*----------------------------------------------------------------
+services
+----------------------------------------------------------------*/
+
+.services-other p
+{
+  text-align: justify;
+}
+.services_enumeration
+{
+  list-style: none;
+  padding-left: 3px;
+  
+}
+.services-other p
+{
+  margin-bottom: 5px;
+}
+.services_enumeration li
+{
+  color: #2d708e;
+}
+.services-other .fw-bold
+{
+  font-weight: 700;
+  font-size: 35px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+.services-other .fw-light
+{
+  font-size: 30px;
+  color: #37517e;
+}
+.services-other .web-optimization:hover,
+.services-other .data-analytics:hover,
+.services-other .media-marketing:hover
+{
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: #37517e;
+  color: white;
+}
+
+.step_get_service
+{
+    background: linear-gradient(rgba(40, 58, 90, 0.7), rgba(40, 58, 90, 0.7)), url("../img/portfolio/portfolio-3.jpg") fixed center center;
+    background-size: cover;
+    padding: 20px 0;
+}
+/*----------------------------------------------------------------
+contact
+----------------------------------------------------------------*/
+.contact-other h3{
+  font-weight: 700;
+  font-size: 35px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
