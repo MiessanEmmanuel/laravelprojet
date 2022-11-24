@@ -20,18 +20,20 @@ use App\Http\Controllers\ServiceController;
 */
 
 Route::get('/', [ HomeController::class , 'create'])->name('home');
-
 Route::post('/', [ HomeController::class , 'store'])->name('newsletter');
 
 Route::get('/about', [ AboutController::class , 'create'])->name('about');
+Route::post('/about', [ AboutController::class , 'store']);
+
 
 Route::get('/contact', [ ContactController::class , 'create'])->name('contact');
-
 Route::post('/contact', [ ContactController::class , 'store'])->name('contactform');
 
 Route::get('/pricing', [ PricingController::class , 'create'])->name('pricing');
+Route::post('/pricing', [ PricingController::class , 'store']);
 
 Route::get('/service', [ ServiceController::class , 'create'])->name('service');
+Route::post('/service', [ ServiceController::class , 'store']);
 
 Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 

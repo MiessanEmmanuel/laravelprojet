@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+
+use App\Models\Newsletter;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\NewsletterRequest;
 
 class PricingController extends Controller
 {
@@ -12,5 +15,13 @@ class PricingController extends Controller
         $title = 'Pricing';
         return view('pricing', compact('title'));
     }
+    public function store(NewsletterRequest $request )
+    {  
+        
+        $newsletter = new Newsletter();
 
+        $newsletter->newletter_email = $request->newletter_email;
+
+        $newsletter -> save();
+    }
 }

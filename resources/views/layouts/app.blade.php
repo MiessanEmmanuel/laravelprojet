@@ -51,8 +51,7 @@
             <p>Sign-up for our newsletter to receive useful resources from our team</p>
             <form action="{{ strtolower($title) }}" method="POST">
               @csrf
-              <input type="newletter_email" name="email">
-                  
+              <input type="email" name="newletter_email">
               <input type="submit" value="Subscribe" class="btn_newletter">
                         
             </form>

@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use App\Models\Newsletter;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactRequest;
+use App\Http\Requests\NewsletterRequest;
 
 class ContactController extends Controller
 {
@@ -18,9 +20,6 @@ class ContactController extends Controller
 
     public function store(ContactRequest $request)
     {
-
-        
-
         $contactform = new Contact();
 
         $contactform->First_name = $request-> first_name;
@@ -31,10 +30,11 @@ class ContactController extends Controller
         $contactform->Website = $request-> website;
         $contactform->Service = $request-> service;
         $contactform->Message = $request-> message;
-
-
-        
         
         $contactform -> save();
     }
+    
+    
+
+    
 }
