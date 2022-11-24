@@ -297,32 +297,34 @@
                     </div>
                 </div>
             </div>
-            <div class="py-2 flex-md-row d-flex flex-column  gy-3 gx-md-4 ">
-                <h2 class="fw-light mb-5 text-center">We serve everyone</h2>
-                <div class="col row mx-2 py-3 shadow p-3  rounded web-optimization">
-                    <h5 class=" text-center my-3">Small Business</h5>
-                    <div class="col">
-                        <p>
-                            Grow your business with posting great content on your social media account. Our team can help you with that. Hire us today!
-                        </p>
+            <div class="py-2  ">
+                <h2 class="fw-light mb-5 text-center ">We serve everyone</h2>
+                <div class=" flex-md-row d-flex flex-column  gy-3 gx-md-4">
+                    <div class="col row mx-2 py-3 shadow p-3  rounded web-optimization">
+                        <h5 class=" text-center my-3">Small Business</h5>
+                        <div class="col">
+                            <p>
+                                Grow your business with posting great content on your social media account. Our team can help you with that. Hire us today!
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col row mx-2 shadow p-3   rounded data-analytics">
-                    <h5 class=" text-center my-3">Medium Businesses</h5>
+                    <div class="col row mx-2 shadow p-3   rounded data-analytics">
+                        <h5 class=" text-center my-3">Medium Businesses</h5>
 
-                    <div class="col">
-                        <p>
-                            Level up your business online, we can help you reach more audience that will boast your business.
-                        </p>
+                        <div class="col">
+                            <p>
+                                Level up your business online, we can help you reach more audience that will boast your business.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col row mx-2 shadow p-3  rounded media-marketing">
-                    <h5 class=" text-center my-3">Organizations</h5>
-                    <div class="col">
-                        <p>
-                            Let help your organization manage its social presence with great content and more followers.
-                        </p>
-                        
+                    <div class="col row mx-2 shadow p-3  rounded media-marketing">
+                        <h5 class=" text-center my-3">Organizations</h5>
+                        <div class="col">
+                            <p>
+                                Let help your organization manage its social presence with great content and more followers.
+                            </p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

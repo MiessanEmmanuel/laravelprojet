@@ -2,7 +2,11 @@
 
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Postcontroller;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PricingController;
+use App\Http\Controllers\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,26 +19,24 @@ use App\Http\Controllers\Postcontroller;
 |
 */
 
-Route::get('/', [ Postcontroller::class , 'index'])->name('home');
+Route::get('/', [ HomeController::class , 'index'])->name('home');
 
-Route::post('/', [ Postcontroller::class , 'newsletter']);
+Route::post('/', [ HomeController::class , 'newsletter']);
 
-Route::get('/about', [ Postcontroller::class , 'about'])->name('about');
+Route::get('/about', [ AboutController::class , 'about'])->name('about');
 
-Route::get('/contact', [ Postcontroller::class , 'contact'])->name('contact');
+Route::get('/contact', [ ContactController::class , 'contact'])->name('contact');
 
-Route::post('/contact', [ Postcontroller::class , 'contactform'])->name('contactform');
+Route::post('/contact', [ ContactController::class , 'contactform'])->name('contactform');
 
-Route::get('/pricing', [ Postcontroller::class , 'pricing'])->name('pricing');
+Route::get('/pricing', [ PricingController::class , 'pricing'])->name('pricing');
 
-Route::get('/service', [ Postcontroller::class , 'service'])->name('service');
+Route::get('/service', [ ServiceController::class , 'service'])->name('service');
 
-Route::get('/portfolio1', [ Postcontroller::class , 'portfolio1'])->name('portfolio1');
+Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 
-Route::get('/portfolio2', [ Postcontroller::class , 'portfolio2'])->name('portfolio2');
+Route::get('/portfolio2', [ HomeController::class , 'portfolio2'])->name('portfolio2');
 
-Route::get('/portfolio3', [ Postcontroller::class , 'portfolio3'])->name('portfolio3');
+Route::get('/portfolio3', [ HomeController::class , 'portfolio3'])->name('portfolio3');
 
-Route::get('/portfolio4', [ Postcontroller::class , 'portfolio4'])->name('portfolio4');
-
-Route::get('resources/views/layouts/partials/navbar', [ Postcontroller::class , 'navbar'])->name('navbar');
+Route::get('/portfolio4', [ HomeController::class , 'portfolio4'])->name('portfolio4');
