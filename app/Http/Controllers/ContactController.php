@@ -2,31 +2,38 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactRequest;
 
 class ContactController extends Controller
 {
-    function contact()
+   public function create()
     {
     
         $title = 'Contact';
         return view('contact', compact('title'));
     }
 
-    function contactform(Request $request)
+    public function store(ContactRequest $request)
     {
+
+        
+
         $contactform = new Contact();
 
-        $contactform->First_name = $_POST['first_name'];
-        $contactform->Last_name = $_POST['last_name'];
-        $contactform->Email = $_POST['email'];
-        $contactform->Phone = $_POST['phone'];
-        $contactform->Company = $_POST['company'];
-        $contactform->Website = $_POST['website'];
-        $contactform->Service = $_POST['service'];
-        $contactform->Message = $_POST['message'];
+        $contactform->First_name = $request-> first_name;
+        $contactform->Last_name = $request-> last_name;
+        $contactform->Email = $request-> email;
+        $contactform->Phone = $request-> phone;
+        $contactform->Company = $request-> company;
+        $contactform->Website = $request-> website;
+        $contactform->Service = $request-> service;
+        $contactform->Message = $request-> message;
+
+
+        
         
         $contactform -> save();
     }

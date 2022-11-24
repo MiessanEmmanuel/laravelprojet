@@ -5,10 +5,11 @@ namespace App\Http\Controllers;
 
 use App\Models\Newsletter;
 use illuminate\Http\Request;
+use App\Http\Requests\NewsletterRequest;
 
 class HomeController extends Controller 
 {
-    function index()
+   public function create()
     {
         $title = 'Home' ;
         return view('welcome',[
@@ -16,18 +17,16 @@ class HomeController extends Controller
             'title' =>  $title ]);
     }
     
-     function newsletter(Request $request )
+    public function store(NewsletterRequest $request )
     {  
-        $validated = $request->validate([
-            'email' => 'required'
-                        
-        ]);
-
+        
         $newsletter = new Newsletter();
 
-        $newsletter->email = $_POST['email'];
+        $newsletter->email = $request->email;
 
-        $newsletter -> save();
+        if ($newsletter -> save()){
+            echo "formulaire envoyé";
+        }
     }
     
 

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    function about()
+    public function create()
     {
         $title = 'About' ;
         return view('about', [

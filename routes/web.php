@@ -19,19 +19,19 @@ use App\Http\Controllers\ServiceController;
 |
 */
 
-Route::get('/', [ HomeController::class , 'index'])->name('home');
+Route::get('/', [ HomeController::class , 'create'])->name('home');
 
-Route::post('/', [ HomeController::class , 'newsletter']);
+Route::post('/', [ HomeController::class , 'store']);
 
-Route::get('/about', [ AboutController::class , 'about'])->name('about');
+Route::get('/about', [ AboutController::class , 'create'])->name('about');
 
-Route::get('/contact', [ ContactController::class , 'contact'])->name('contact');
+Route::get('/contact', [ ContactController::class , 'create'])->name('contact');
 
-Route::post('/contact', [ ContactController::class , 'contactform'])->name('contactform');
+Route::post('/contact', [ ContactController::class , 'store'])->name('contactform');
 
-Route::get('/pricing', [ PricingController::class , 'pricing'])->name('pricing');
+Route::get('/pricing', [ PricingController::class , 'create'])->name('pricing');
 
-Route::get('/service', [ ServiceController::class , 'service'])->name('service');
+Route::get('/service', [ ServiceController::class , 'create'])->name('service');
 
 Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 

@@ -143,6 +143,9 @@
                 <div class="form-group col-md-6">
                   <label for="first_name">First Name</label>
                   <input type="text" name="first_name" class="form-control" id="first_name" required>
+                    @error('first_name')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="last_name">Last Name</label>
@@ -151,6 +154,9 @@
                 <div class="form-group col-md-6">
                   <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
+                        @error('email')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="phone">Phone</label>

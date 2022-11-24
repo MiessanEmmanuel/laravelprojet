@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
-    function service()
+    public function create()
     {
         $title = 'Service';
         return view('services', compact('title'));

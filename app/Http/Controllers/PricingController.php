@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class PricingController extends Controller
 {
-    function pricing()
+    public function create()
     {
         $title = 'Pricing';
         return view('pricing', compact('title'));

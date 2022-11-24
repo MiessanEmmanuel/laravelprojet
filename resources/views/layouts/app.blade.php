@@ -52,6 +52,9 @@
             <form action="/" method="POST">
               @csrf
               <input type="email" name="email">
+                  @error('first_name')
+                            <div class="invalid-feedback">{{ $message }}</div>
+                        @enderror
               <input type="submit" value="Subscribe" class="btn_newletter">
             </form>
           </div>
