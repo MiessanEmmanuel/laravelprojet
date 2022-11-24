@@ -137,34 +137,43 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="/contact" method="post" role="form" class="php-email-form">
+            <form action="contact" method="post" role="form" class="php-email-form">
               @csrf
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="first_name">First Name</label>
                   <input type="text" name="first_name" class="form-control" id="first_name" required>
-                    @error('first_name')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
+                  @error('first_name')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="last_name">Last Name</label>
                   <input type="text" name="last_name" class="form-control" id="last_name" required>
+                  @error('last_name')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
-                        @error('email')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
+                  @error('email')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="phone">Phone</label>
                   <input type="phone" name="phone" class="form-control" id="phone" required>
+                  @error('phone')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="company">Company/Organization</label>
                   <input type="text" class="form-control" name="company" id="company" required>
+                  @error('company')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="website">Website</label>
@@ -179,10 +188,16 @@
                   <option value="3">Social Management</option>
                 </select>
                 <label for="floatingSelect">What Are You Looking For</label>
+                @error('service')
+                      <div class="text-danger">{{ $message }}</div>
+                  @enderror
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
+                @error('message')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>

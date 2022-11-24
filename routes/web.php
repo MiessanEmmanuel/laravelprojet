@@ -21,7 +21,7 @@ use App\Http\Controllers\ServiceController;
 
 Route::get('/', [ HomeController::class , 'create'])->name('home');
 
-Route::post('/', [ HomeController::class , 'store']);
+Route::post('/', [ HomeController::class , 'store'])->name('newsletter');
 
 Route::get('/about', [ AboutController::class , 'create'])->name('about');
 

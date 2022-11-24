@@ -49,14 +49,16 @@
           <div class="col-lg-6">
             <h4 class = ''>Join Our Newsletter</h4>
             <p>Sign-up for our newsletter to receive useful resources from our team</p>
-            <form action="/" method="POST">
+            <form action="{{ strtolower($title) }}" method="POST">
               @csrf
-              <input type="email" name="email">
-                  @error('first_name')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
+              <input type="newletter_email" name="email">
+                  
               <input type="submit" value="Subscribe" class="btn_newletter">
+                        
             </form>
+                    @error('newletter_email')
+                            <div class="text-danger">{{ $message }}</div>
+                        @enderror
           </div>
         </div>
       </div>

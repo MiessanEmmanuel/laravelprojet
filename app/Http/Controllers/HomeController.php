@@ -22,11 +22,9 @@ class HomeController extends Controller
         
         $newsletter = new Newsletter();
 
-        $newsletter->email = $request->email;
+        $newsletter->newletter_email = $request->newletter_email;
 
-        if ($newsletter -> save()){
-            echo "formulaire envoyé";
-        }
+        $newsletter -> save();
     }
     
 
