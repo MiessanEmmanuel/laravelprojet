@@ -4,7 +4,7 @@
 
   <!-- ======= About Us Section ======= -->
   
-  <main id="aboutother" class=" py-0">
+  <main id="aboutother" class=" about-other py-0">
     <div class="aboutother-banniere aboutother-banniere-about container-fuild py-5">
       <div class="section-title">
          <h2 class="">About Us</h2>
@@ -14,19 +14,19 @@
 
     <section id="">
       <div class="container" data-aos="fade-up">
-        <h2 class="fs-3 text-center">Our Priority</h2>
+        <h2 class="fs-3 text-center fw-bold">Our Priority</h2>
         <div class = "row  flex-column-reverse  flex-lg-row  jutify-content-between pt-3 ">
             <div class=" col-lg-6  d-flex flex-column  align-self-end pt-5  content  " data-aos="fade-right" data-aos-delay="100">
-                <h4 class="d-block mx-auto">Our Values</h4>
+                <h4 class="d-block mx-auto fw-light">Our Values</h4>
                 <div class="mt-2">
                   <p class="mt-1 txt-our ">
                   We work effortless towards achieving the needs and satisfactions of 
                   the society and Africa at large. These values are set and meet by 
-                  our zealous team in every aspect of the work we do. <br>
-                 <span class="text-dark fw-2">Transparency</span></li><br>
-                 <span class="text-dark fw-2">Connectivity (Connection)</span>
-                    
-                    
+                  our zealous team in every aspect of the work we do. 
+                  <ul class="enumeration">
+                    <li><i class="ri-check-double-line me-2 fs-5"></i>Transparency</li>
+                    <li><i class="ri-check-double-line me-2 fs-5"></i>Connectivity (Connection)</li>
+                  </ul>
                     <div class="py-4">
                       <button type="button" class="btn btn-outline-primary  aboutbut-our w-25 d-block mx-auto ">Learn more</button>
                     </div>

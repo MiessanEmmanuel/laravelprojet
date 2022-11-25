@@ -11,7 +11,15 @@
   /*--------------------------------------------------------------
   # about
   --------------------------------------------------------------*/
-
+.about-other .fw-bold{
+  font-size: 35px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+}
+.about-other .fw-light {
+  font-size: 30px;
+  color: #37517e;
+}
 .aboutbut-our{
     align-self:flex-end;
     margin:0px 0px 25px 18px;
@@ -120,19 +128,19 @@
 {
     background-color: #F3F5FA;
   }
-.icons-data-analytics, .icons-media-marketing, .icons-web-optimization{
+.icons-website-maintenance, .icons-social-management, .icons-website-development{
   color: #47B2E4 ;
 }
-#pricing-information .web-optimization,
-#pricing-information .data-analytics,
-#pricing-information .media-marketing
+#pricing-information .website-development,
+#pricing-information .website-maintenance,
+#pricing-information .social-management
 {
   z-index: 1;
  
 }
-#pricing-information .web-optimization:hover,
-#pricing-information .data-analytics:hover,
-#pricing-information .media-marketing:hover
+#pricing-information .website-development:hover,
+#pricing-information .website-maintenance:hover,
+#pricing-information .social-management:hover
 {
   transform: translateY(-10px);
   z-index: 0;
@@ -156,7 +164,7 @@ services
 {
   text-align: justify;
 }
-.services_enumeration
+.enumeration
 {
   list-style: none;
   padding-left: 3px;
@@ -166,7 +174,7 @@ services
 {
   margin-bottom: 5px;
 }
-.services_enumeration li
+.enumeration li
 {
   color: #2d708e;
 }
@@ -182,9 +190,9 @@ services
   font-size: 30px;
   color: #37517e;
 }
-.services-other .web-optimization:hover,
-.services-other .data-analytics:hover,
-.services-other .media-marketing:hover
+.services-other .website-development:hover,
+.services-other .website-maintenance:hover,
+.services-other .social-management:hover
 {
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   background-color: #37517e;

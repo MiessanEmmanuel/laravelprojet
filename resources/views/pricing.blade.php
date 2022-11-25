@@ -15,10 +15,10 @@
       </div>
       <div class="row py-2">
 
-        <div class="col row mx-2 py-3 shadow p-3 mb-5 bg-body rounded web-optimization">
-          <h5 class=" text-center my-3">Website development</h5>
+        <div class="col row mx-2 py-3 shadow p-3 mb-5 bg-body rounded website-development">
+          <h5  class=" text-center my-3">Website development</h5>
           <div class="col-4 pt-1 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-pc-display-horizontal icons-web-optimization" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-pc-display-horizontal icons-website-development" viewBox="0 0 16 16">
             <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
           </svg>
           </div>
@@ -30,10 +30,10 @@
             <a class="btn boutton-subscribe d-block mx-auto mt-4 " href="service#web" >Learn more</a>
           </div>
         </div>
-        <div class="col row mx-2 shadow p-3 mb-5 bg-body rounded data-analytics">
+        <div  class="col row mx-2 shadow p-3 mb-5 bg-body rounded website-maintenance">
           <h5 class=" text-center my-3">Website Maintenance</h5>
           <div class="col-4 pt-1 ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-graph-up-arrow icons-data-analytics" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-graph-up-arrow icons-website-maintenance" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
             </svg>
           </div>
@@ -44,10 +44,10 @@
             <a class="btn boutton-subscribe d-block mx-auto mt-4" href="service#data" >Learn more</a>
           </div>
         </div>
-        <div class="col row mx-2 shadow p-3 mb-5 bg-body rounded media-marketing">
-          <h5 class=" text-center my-3">Social Management</h5>
+        <div  class="col row mx-2 shadow p-3 mb-5 bg-body rounded social-management">
+          <h5  class=" text-center my-3">Social Management</h5>
           <div class="col-4 pt-1 ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-envelope-paper icons-media-marketing " viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="100" fill="currentColor" class="bi bi-envelope-paper icons-social-management " viewBox="0 0 16 16">
               <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
             </svg>
           </div>
@@ -94,10 +94,10 @@
 
   <!-- ======= Pricing Section ======= -->
   <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
+      <div id="website-development" class="container" data-aos="fade-up">
 
       <div class="text-center">
-        <h2 class="text-center">Website development</h2>
+        <h2  class="text-center">Website development</h2>
         <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci?</p>
       </div>
       <div class="mx-auto  ">
@@ -302,9 +302,9 @@
   </section><!-- End Pricing Section -->
 
    <section id="pricing" class="pricing section-bg">
-      <div class="container" data-aos="fade-up">
+      <div id="social-management" class="container" data-aos="fade-up">
 
-      <div class="text-center">
+      <div  class="text-center">
         <h2 class="text-center">Social Media Management</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci?</p>
       </div>
@@ -424,7 +424,7 @@
   </section>
 
   <section id="pricing" class="pricing ">
-      <div class="container" data-aos="fade-up">
+      <div id="website-maintenance" class="container" data-aos="fade-up">
 
         <div class="text-center">
           <h2 class="text-center">Website maintenance</h2>
@@ -432,7 +432,7 @@
         </div>
         <div class="maintenance">
             <div class="flex-md-row d-flex flex-column mt-5 py-2   gy-3 gx-md-4 ">
-              <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded web-optimization">
+              <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
                   <h5 class=" text-center mt-3">Lite</h5>
                   <h6 class="light mb-3 text-center">From <sup>$</sup>69.99 </h6>
                   <div class="col">
@@ -440,7 +440,7 @@
 
                   </div>
               </div>
-              <div class="col row mx-2 shadow p-3 mb-5 rounded data-analytics">
+              <div class="col row mx-2 shadow p-3 mb-5 rounded website-maintenance">
                   <h5 class=" text-center mt-3">Medium</h5>
                   <h6 class="light mb-3 text-center">From <sup>$</sup>79.99 </h6>
                   <div class="col">
@@ -449,7 +449,7 @@
                       </p>
                   </div>
               </div>
-              <div class="col row mx-2 shadow p-3 mb-5  rounded media-marketing">
+              <div class="col row mx-2 shadow p-3 mb-5  rounded social-management">
                   <h5 class=" text-center my-3">Premium</h5>
                   <h6 class="light mb-3 text-center">From <sup>$</sup>99.99 </h6>
                   <div class="col">

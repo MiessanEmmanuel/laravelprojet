@@ -12,7 +12,7 @@ class HomeController extends Controller
    public function create()
     {
         $title = 'Home' ;
-        return view('welcome',[
+        return view('home',[
             
             'title' =>  $title ]);
     }
