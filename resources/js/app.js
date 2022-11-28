@@ -1,5 +1,4 @@
 import './bootstrap';
-import '../css/app.css';
 
 /**
 * Template Name: Arsha - v4.9.1

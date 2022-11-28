@@ -128,7 +128,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form:. https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-        Designed by <a href="https://bootstrapmade.com/">Qavaaconsulting</a>
+        Designed by <a href="home">Qavaaconsulting</a>
       </div>
     </div>
   
@@ -147,21 +147,7 @@
   <script src="{{asset('vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <!--script>
-    let titre =  '{{ $title }}';
-    if(titre == 'Home'){
-      let btn_newletter = select('.btn_newletter')
-        if (btn_newletter){
-          alert('bonjour')
-        }
-         
-      }else{
-        alert("n'oubliez pas la newslettrer s'il vous plait");
-      }
-    
-  
-   
-  </script-->
+  <script src="{{asset('js/main.js')}}"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
