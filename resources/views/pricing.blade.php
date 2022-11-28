@@ -6,7 +6,7 @@
                <h2>Pricing</h2>
             </div>
          </div>
-<main class="princing-other">
+<main class="pricing-other">
   <section id="pricing-information">
     <div class=" container" data-aos="fade-up">
       <div class="text-center mb-5">

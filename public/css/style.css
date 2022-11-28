@@ -12,7 +12,7 @@
   # about
   --------------------------------------------------------------*/
 .about-other .fw-bold{
-  font-size: 35px;
+  font-size: 28px !important;
     color: #37517e;
     font-family: "Poppins", sans-serif;
 }
@@ -97,15 +97,15 @@
  /*--------------------------------------------------------------
   # pricing
   --------------------------------------------------------------*/
-.princing-other #pricing-information .btn{
+.pricing-other #pricing-information .btn{
   background-color: #47B2E4;
   color: white;
 }
-.princing-other #pricing-information
+.pricing-other #pricing-information
 {
     text-align: justify;
   }
-.princing-other #pricing-information .boutton-subscribe
+.pricing-other #pricing-information .boutton-subscribe
 {
     border : none;
     width: 200px;
@@ -114,17 +114,17 @@
     transition-duration: 1s;
     transform-origin: top;
   }
-.princing-other #pricing-information .boutton-subscribe:hover
+.pricing-other #pricing-information .boutton-subscribe:hover
 {
     background-color: #2d708e ;
     border: none;
     color: white;
   }
-.princing-other #pricing-information p
+.pricing-other #pricing-information p
 {
   line-height: 35px;
 }
-.princing-other .price
+.pricing-other .price
 {
     background-color: #F3F5FA;
   }
@@ -150,9 +150,9 @@
   transition-duration: 2s, 2s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1), cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.princing-other h2{
+.pricing-other h2{
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px;
   color: #37517e;
   font-family: "Poppins", sans-serif;
 }
@@ -181,13 +181,13 @@ services
 .services-other .fw-bold
 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px !important; 
   color: #37517e;
   font-family: "Poppins", sans-serif;
 }
 .services-other .fw-light
 {
-  font-size: 30px;
+  font-size: 25px !important;
   color: #37517e;
 }
 .services-other .website-development:hover,

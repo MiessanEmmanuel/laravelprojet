@@ -42,7 +42,7 @@
               <img src="{{asset('img/why-us.png')}}" alt="oups" class ="w-100">
             </div>
             <div class="col-lg-6 d-flex flex-column align-self-end  content" data-aos="fade-left" >
-                <h4 class="d-block mx-auto">Our Mission</h4>
+                <h4 class="d-block mx-auto fw-light">Our Mission</h4>
                 <div class="mt-2">
                   <p class="mt-1 txt-our">
                     Our mission is to bring transparency and certainty in the business world amongst Africans, to render consulting services to African SMEs to enable them meet their
@@ -62,7 +62,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="mb-5">
-          <h2 class="text-center mb-4">Team</h2>
+          <h2 class="text-center mb-4 fw-bold">Team</h2>
           <p class="w-75  mx-auto text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -159,7 +159,7 @@
     </section-->
     <section class="container content" data-aos="fade-up">
       <div class="mb-4">
-        <h2 class="text-center">Lorem, ipsum.</h2>
+        <h2 class="text-center fw-bold">Lorem, ipsum.</h2>
       </div>
       <div class="row mt-5">
           <div class="col-lg-6">
