@@ -13,9 +13,9 @@ class ContactController extends Controller
 {
    public function create()
     {
-    
+        $value_menu_contact = 'active';
         $title = 'Contact';
-        return view('contact', compact('title'));
+        return view('contact', compact('title','value_menu_contact'));
     }
 
     public function store(ContactRequest $request)
@@ -41,8 +41,9 @@ class ContactController extends Controller
         $newsletter->newletter_email = $request->newletter_email;
 
         if($newsletter -> save()){
+            $value_menu_contact = 'active';
             $title = 'Contact';
-            return view('contact',compact('title'));
+            return view('contact', compact('title','value_menu_contact'));
         } 
     }
     

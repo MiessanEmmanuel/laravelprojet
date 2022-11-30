@@ -12,7 +12,8 @@ class ServiceController extends Controller
     public function create()
     {
         $title = 'Service';
-        return view('services', compact('title'));
+        $value_menu_service = 'active';
+        return view('services', compact('title','value_menu_service'));
     }
     public function store(NewsletterRequest $request)
     {  
@@ -23,7 +24,8 @@ class ServiceController extends Controller
 
         if($newsletter -> save()){
             $title = 'Service';
-        return view('services', compact('title'));
+        $value_menu_service = 'active';
+        return view('services', compact('title','value_menu_service'));
         }
         
     }

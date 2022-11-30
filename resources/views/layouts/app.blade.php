@@ -415,7 +415,18 @@
       })()
       
   </script>
-
+<!--script type="text/javascript">
+  function toto(e) {
+    activedLink = e.target.href;
+    array = navbar_others.getElementsByTagName("a");
+    for (i=0; i<array.length; i++) {
+    if ( array[i].href != activedLink )
+            array[i].style.color = "blue";
+        else array[i].style.color = "tomato";
+        }
+    myFrame.src = activedLink;
+  }
+</script-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

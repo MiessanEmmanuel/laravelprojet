@@ -13,7 +13,8 @@ class PricingController extends Controller
     public function create()
     {
         $title = 'Pricing';
-        return view('pricing', compact('title'));
+        $value_menu_pricing = 'active';
+        return view('pricing', compact('title','value_menu_pricing'));
     }
     public function store(NewsletterRequest $request)
     {  
@@ -24,7 +25,8 @@ class PricingController extends Controller
 
         if($newsletter -> save()){
             $title = 'Pricing';
-            return view('pricing', compact('title'));
+        $value_menu_pricing = 'active';
+        return view('pricing', compact('title','value_menu_pricing'));
         } 
     }
 }
