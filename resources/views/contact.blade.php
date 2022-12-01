@@ -195,9 +195,9 @@
               <div class="form-group">
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="10" required></textarea>
-                @error('message')
-                    <div class="text-danger">{{$message}}</div>
-                @enderror
+                  @error('message')
+                      <div class="text-danger">{{$message}}</div>
+                  @enderror
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
