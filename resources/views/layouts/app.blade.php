@@ -70,14 +70,14 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact footer-links">
             <h3>Qavaa</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong><a href="" target="_blank" rel="noopener noreferrer" > +225 59 58 01 08<br>
+              <strong>Email:</strong><a href="http://info@qavaa.com" target="_blank" rel="noopener noreferrer" > info@qavaa.com</a> <br>
             </p>
           </div>
 
@@ -95,11 +95,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Online marketplace</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Business consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web & App design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Website Maintenance</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
             </ul>
           </div>
 
@@ -110,8 +110,6 @@
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
@@ -128,7 +126,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form:. https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-        Designed by <a href="https://bootstrapmade.com/">Qavaaconsulting</a>
+        Designed by <a href="home">Qavaaconsulting</a>
       </div>
     </div>
   

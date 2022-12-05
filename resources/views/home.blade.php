@@ -43,27 +43,27 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-1.png')}}" class="img-fluid" alt="">
+            <a href="https://prizedbeauty.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/prized-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-2.png')}}" class="img-fluid" alt="">
+            <a href="https://naturessyrup.qavaainnovate.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/naturesyrup-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-3.png')}}" class="img-fluid" alt="">
+            <a href="https://ecdministries.org/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/eglise-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
-
+          
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-4.png')}}" class="img-fluid" alt="">
+            <a href="https://extravagantgracebook.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/extravagant-grace-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
-
+         
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-5.png')}}" class="img-fluid" alt="">
+          <a href="https://qavaa.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/Qavaa-website-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
-
+          
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-6.png')}}" class="img-fluid" alt="">
+            <a href="https://naturessyrup.qavaainnovate.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/naturesyrup-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
 
         </div>
@@ -118,7 +118,13 @@
             <div class="accordion-list">
               <ul >
                 <li>
-                  <a  class="collapse"><span>01</span> Web design </a>
+                  <a href="#"><span>01</span> Online marketplace </a>
+                </li>
+                <li>
+                  <a href="#"><span>02</span> Business consulting</a>
+                </li>
+                <li>
+                  <a href="#"><span>03</span> Web & App design</a>
                   <!--div id="accordion-list-3" class="collapse show" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -141,7 +147,7 @@
                 </li>
 
                 <li>
-                  <a class="collapsed"><span>02</span> Website Maintenance</a>
+                  <a href="#"><span>04</span> Website Maintenance</a>
                   <!--div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -173,7 +179,7 @@
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Social media management </i></a>
+                  <a href="#"><span>05</span> Digital Marketing </i></a>
                   <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                   <ul class="mt-2">
                       <li class="py-1 ">
@@ -194,6 +200,7 @@
                     </ul>
                   </div-->
                 </li>
+                
               </ul>
             </div>
 
@@ -267,32 +274,31 @@
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
+              <div class="icon" ><img src="{{asset('img/clients/prized-logo.png')}}" class="img-fluid d-block mx-auto" alt="" style=" height:150px;"></div>
+              <h4><a href="https://prizedbeauty.com/" target="_blank" rel="noopener noreferrer">Prizedbeauty</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
+            <div class="icon-box " >
+              <div class="icon"><img src="{{asset('img/clients/extravagant-grace.png')}}" class="img-fluid d-block mx-auto" alt="" style=" height:150px;"></div>
+              <h4><a href="https://extravagantgracebook.com" target="_blank" rel="noopener noreferrer">Extravagant grace</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
+              <div class="icon"><img src="{{asset('img/clients/eglise-logo.png')}}" class="img-fluid d-block mx-auto" alt="" style=" height:150px;"></div>
+              <h4><a href="https://ecdministries.org/" target="_blank" rel="noopener noreferrer">Ecd ministries</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
+              <div class="icon" ><img src="{{asset('img/clients/naturesyrup.jpg')}}" class="img-fluid d-block mx-auto align-self-center" alt="" style=" height:150px;" ></div>
+              <h4><a href="https://naturessyrup.qavaainnovate.com/" target="_blank" rel="noopener noreferrer">Naturessyrup</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
