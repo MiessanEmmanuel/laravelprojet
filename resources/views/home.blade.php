@@ -118,8 +118,8 @@
             <div class="accordion-list">
               <ul >
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Web dedign <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                  <a  class="collapse"><span>01</span> Web design </a>
+                  <!--div id="accordion-list-3" class="collapse show" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
                         One Page Website
@@ -137,12 +137,12 @@
                         App
                       </li>
                     </ul>
-                  </div>
+                  </div-->
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Website Maintenance<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                  <a class="collapsed"><span>02</span> Website Maintenance</a>
+                  <!--div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
                         Content Management
@@ -169,12 +169,12 @@
                         Web design update & Optimization
                       </li>
                     </ul>
-                  </div>
+                  </div-->
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Social media management <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Social media management </i></a>
+                  <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                   <ul class="mt-2">
                       <li class="py-1 ">
                         More Adverstising campaign
@@ -192,7 +192,7 @@
                         Chat
                       </li>
                     </ul>
-                  </div>
+                  </div-->
                 </li>
               </ul>
             </div>
@@ -225,23 +225,23 @@
             <div class="skills-content">
 
               <div class="progress">
-              <span class="skill"><i class="ri-check-double-line"></i>If you care about satisfactory results </span>
+              <span class="skill"><i class="ri-check-double-line"></i> You care about satisfactory results </span>
                 
               </div>
 
               <div class="progress">
-                <span class="skill"><i class="ri-check-double-line"></i>If you have a unique offer </span>
+                <span class="skill"><i class="ri-check-double-line"></i> You have a unique offer </span>
                 
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill"><i class="ri-check-double-line"></i>If your company needs a scale-up</span>
+                <span class="skill"><i class="ri-check-double-line"></i> Your company needs a scale-up</span>
                 
               </div>
 
               <div class="progress">
-                <span class="skill"><i class="ri-check-double-line"></i>If you desire an accessible and responsive flow in your organization </span>
+                <span class="skill"><i class="ri-check-double-line"></i> You desire an accessible and responsive flow in your organization </span>
                 
               </div>
 
@@ -521,7 +521,7 @@
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq ">
+    <!-- ((((((((  TESTIMONIALS  ))))))))))section id="faq" class="faq ">
       <div class="container" data-aos="fade-up">
 
         <div class="skills ">
@@ -581,7 +581,7 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section--><!-- End Frequently Asked Questions Section -->
 
     
 

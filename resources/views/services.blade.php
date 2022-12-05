@@ -155,39 +155,7 @@
                 </div>
                 
             </div>
-            <div class="step_get_service">
-                <div class="container  why-us " data-aos="zoom-in">
-                    <div class="text-center mb-5"  >
-                        <h3 class="fw-light text-light" id="web">Steps to get your site online</h3>
-                    </div>
-                    <div class="mx-auto d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1 w-75">
-                        <div class="accordion-list">
-                            <ul>
-                                <li>
-                                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> first step<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                        Shedule a meeting with us to discuss your ideas, and make payments.
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>second step<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                                        Our design team will start working on your idea in other to bring it to reality.
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Third step <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                                    Finally we deliver your work to your satisfaction.
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             
             <div class="container">
                 <a href="pricing#website-development" type="button" class="  btn btn-primary mt-3 d-block mx-auto w-25 mt-5"  data-aos="zoom-in">Get started Now</a>

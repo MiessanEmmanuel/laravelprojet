@@ -212,7 +212,8 @@
 
       </div>
     </section><!-- End Contact Section -->
-    <section id="faq" class="faq section-bg ">
+     <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ((((((((  TESTIMONIALS  ))))))))))section id="faq" class="faq ">
       <div class="container" data-aos="fade-up">
 
         <div class="skills ">
@@ -272,7 +273,8 @@
         </div>
 
       </div>
-    </section>
+    </section--><!-- End Frequently Asked Questions Section -->
+
 </main>
 
 
