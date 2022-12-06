@@ -12,6 +12,9 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="about">About</a></li>
           <li><a class="nav-link scrollto" href="service">Services</a></li>
+          <li><a class="nav-link scrollto" href="consulting">Consulting</a></li>
+          <li><a class="nav-link scrollto" href="ecommerce">E-commerce</a></li>
+          <li><a class="nav-link scrollto" href="socialwork">Social Work</a></li>
           <li><a class="nav-link   scrollto" href="pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="contact">Contact</a></li>
         </ul>

@@ -118,13 +118,35 @@
             <div class="accordion-list">
               <ul >
                 <li>
-                  <a href="#"><span>01</span> Online marketplace </a>
+                  <a href="#"><span>01</span> E-Commerce </a>
                 </li>
                 <li>
                   <a href="#"><span>02</span> Business consulting</a>
                 </li>
                 <li>
-                  <a href="#"><span>03</span> Web & App design</a>
+                  <a href="#"><span>03</span> Digital Marketing </i></a>
+                  <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <ul class="mt-2">
+                      <li class="py-1 ">
+                        More Adverstising campaign
+                      </li>
+                      <li  class="py-1">
+                        
+                        Referencing management
+                      </li>
+                      <li  class="py-1">
+                        
+                        Analysis extration
+                      </li>
+                      <li  class="py-1">
+
+                        Chat
+                      </li>
+                    </ul>
+                  </div-->
+                </li>
+                <li>
+                  <a href="#"><span>04</span> Web & App design</a>
                   <!--div id="accordion-list-3" class="collapse show" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -147,7 +169,7 @@
                 </li>
 
                 <li>
-                  <a href="#"><span>04</span> Website Maintenance</a>
+                  <a href="#"><span>05</span> Website & App Maintenance</a>
                   <!--div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -177,29 +199,10 @@
                     </ul>
                   </div-->
                 </li>
-
                 <li>
-                  <a href="#"><span>05</span> Digital Marketing </i></a>
-                  <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                  <ul class="mt-2">
-                      <li class="py-1 ">
-                        More Adverstising campaign
-                      </li>
-                      <li  class="py-1">
-                        
-                        Referencing management
-                      </li>
-                      <li  class="py-1">
-                        
-                        Analysis extration
-                      </li>
-                      <li  class="py-1">
-
-                        Chat
-                      </li>
-                    </ul>
-                  </div-->
+                  <a href="#"><span>06</span> Social Project Sponsorship</a>
                 </li>
+                
                 
               </ul>
             </div>
@@ -223,10 +226,9 @@
             <img src="{{asset('img/skills.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content align-self-center" data-aos="fade-left" data-aos-delay="100">
-            <h4>We might be the right fit</h4>
+            <h4>We are the right fit for your project if</h4>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              If the followings are the reason why you are still not setup then it time to setup, contact us now
             </p>
 
             <div class="skills-content">
@@ -315,7 +317,7 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Do you have a project in mind? Schedule a free meeting today.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
@@ -446,7 +448,7 @@
         <div class="skills ">
           <div class="section-title content">
             <h3>Team</h3>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p> Meet with our skilled and industrious team.</p>
           </div>
         </div>
 

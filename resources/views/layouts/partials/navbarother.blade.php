@@ -13,6 +13,9 @@
       <li><a class="nav-link scrollto" href="/">Home</a></li>
       <li><a class="nav-link scrollto {{$value_menu_about?? ''}}" href="about">About</a></li>
       <li><a class="nav-link scrollto {{$value_menu_service?? ''}}" href="service">Services</a></li>
+      <li><a class="nav-link scrollto {{$value_menu_consulting?? ''}}" href="consulting">Consulting</a></li>
+      <li><a class="nav-link scrollto {{$value_menu_ecommerce?? ''}}" href="ecommerce">E-commerce</a></li>
+      <li><a class="nav-link scrollto {{$value_menu_socialwork?? ''}}" href="socialwork">Social Work</a></li>
       <li><a class="nav-link scrollto {{$value_menu_pricing?? ''}}" href="pricing">Pricing</a></li>
       <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
       

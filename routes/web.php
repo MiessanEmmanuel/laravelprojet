@@ -7,6 +7,9 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\EcommerceController;
+use App\Http\Controllers\ConsultingController;
+use App\Http\Controllers\SocialworkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +27,15 @@ Route::post('/', [ HomeController::class , 'store'])->name('newsletter');
 
 Route::get('/about', [ AboutController::class , 'create'])->name('about');
 Route::post('/about', [ AboutController::class , 'store']);
+
+Route::get('/ecommerce', [ EcommerceController::class , 'create'])->name('ecommerce');
+Route::post('/ecommerce', [ EcommerceController::class , 'store']);
+
+Route::get('/consulting', [ ConsultingController::class , 'create'])->name('consulting');
+Route::post('/consulting', [ ConsultingController::class , 'store']);
+
+Route::get('/socialwork', [ SocialworkController::class , 'create'])->name('socialwork');
+Route::post('/socialwork', [ SocialworkController::class , 'store']);
 
 
 Route::get('/contact', [ ContactController::class , 'create'])->name('contact');

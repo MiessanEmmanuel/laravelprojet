@@ -76,7 +76,7 @@
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
-              <strong>Phone:</strong><a href="" target="_blank" rel="noopener noreferrer" > +225 59 58 01 08<br>
+              <strong>Phone:</strong><a  target="_blank" rel="noopener noreferrer"> +1 410 929 7684<br>
               <strong>Email:</strong><a href="http://info@qavaa.com" target="_blank" rel="noopener noreferrer" > info@qavaa.com</a> <br>
             </p>
           </div>
@@ -84,32 +84,28 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Apply</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Partner with us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Our initiatives</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Online marketplace</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Business consulting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web & App design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Website Maintenance</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">E-Commerce</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Social Work</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>join us on our different social networks</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://twitter.com/OfficialQavaa" class="twitter" target="_blank" rel="noopener noreferrer"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/Qavaa" class="facebook" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/qavaa_official/?next=%2F" target="_blank" rel="noopener noreferrer" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
           </div>
 
@@ -122,10 +118,6 @@
         &copy; Copyright <strong><span>Qavaa</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form:. https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
         Designed by <a href="home">Qavaaconsulting</a>
       </div>
     </div>
@@ -150,12 +142,7 @@
       //alert("@error('newletter_email') {{  $message}}  @enderror ");
     
    
-    /**
-    * Template Name: Arsha - v4.9.1
-    * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    */
+    
     (function() {
         "use strict";
       
