@@ -7,7 +7,7 @@
   <main id="aboutother" class=" about-other py-0">
     <div class="aboutother-banniere aboutother-banniere-about container-fuild py-5">
       <div class="section-title">
-         <h2 class="">About Us</h2>
+         <h2 class="">{{ $title}} Us</h2>
       </div>
     </div>
 

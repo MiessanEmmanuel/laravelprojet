@@ -12,12 +12,33 @@
     <ul class="navbar_others">
       <li><a class="nav-link scrollto" href="/">Home</a></li>
       <li><a class="nav-link scrollto {{$value_menu_about?? ''}}" href="about">About</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_service?? ''}}" href="service">Services</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_consulting?? ''}}" href="consulting">Consulting</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_ecommerce?? ''}}" href="ecommerce">E-commerce</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_socialwork?? ''}}" href="socialwork">Social Work</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_pricing?? ''}}" href="pricing">Pricing</a></li>
-      <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
+      <li class="dropdown"><a class="nav-link scrollto {{$value_menu_ecommerce?? ''}}" href="ecommerce"><span>E-commerce</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Membership</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+            </ul>
+      </li>
+      <li class="dropdown"><a class="nav-link scrollto {{$value_menu_consulting?? ''}} " href="consulting"><span>Consulting</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="consulting#web">Web Design</a></li>
+              <li><a href="#">App Design</a></li>
+              <li><a href="consulting#data">Maintenance</a></li>
+            </ul>
+      </li>
+      <li class="dropdown"><a class="nav-link scrollto {{$value_menu_socialwork?? ''}}" href="socialwork"><span>Social Work</span><i class="bi bi-chevron-down"></i> </a>
+            <ul>
+              <li><a href="#">Our initiative</a></li>
+            </ul>
+      </li>
+      <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto {{$value_menu_service?? ''}}" href="service">Services</a></li>
+              <li><a class="nav-link scrollto {{$value_menu_pricing?? ''}}" href="pricing">Pricing</a></li>
+              <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
+            </ul>
+      </li>
+
+            
       
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
@@ -52,29 +73,7 @@
         </div>
     </div>
 </nav>
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
+ 
 </nav-->
 
   </div> 
