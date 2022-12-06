@@ -442,90 +442,90 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="skills ">
-          <div class="section-title content">
-            <h3>Team</h3>
-            <p> Meet with our skilled and industrious team.</p>
-          </div>
+        <div class="mb-5">
+          <h2 class="text-center mb-4 fw-bold">Team</h2>
+          <p class="w-75  mx-auto text-center"> Meet with our skilled and industrious team.</p>
         </div>
 
         <div class="row">
-
-          <div class="col-lg-6">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="presentation ">
+              <img src="{{asset('img/team/team-1.jpg')}}" alt="oups" class="w-100">
+            </div>
+            <div class="info-presentation">
+              <div class="info-presentation-text position-relative">
+                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
+                  <div class="">
+                    <h4>Marcus Doe</h4>
+                    <p>CEO</p>
+                  </div>
+                  <a href="portfolio1" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="presentation">
+              <img src="{{asset('img/team/team-2.jpg')}}" alt="oups" class="w-100">
+            </div>
+            <div class="info-presentation">
+              <div class="info-presentation-text position-relative">
+                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
+                  <div class="">
+                    <h4>Marcus Doe</h4>
+                    <p>CEO</p>
+                  </div>
+                  <a href="portfolio2" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="{{asset('img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="presentation">
+              <img src="{{asset('img/team/team-3.jpg')}}" alt="oups" class="w-100">
+            </div>
+            <div class="info-presentation">
+              <div class="info-presentation-text position-relative">
+                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
+                  <div class="">
+                    <h4>Marcus Doe</h4>
+                    <p>CEO</p>
+                  </div>
+                  <a href="portfolio3" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
+                  
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="{{asset('img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="presentation">
+              <div>
+                <img src="{{asset('img/team/team-4.jpg')}}" alt="oups" class="w-100">
+              </div>
+            </div>
+            <div class="info-presentation">
+              <div class="info-presentation-text position-relative">
+                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
+                  <div class="">
+                    <h4>Marcus Doe</h4>
+                    <p>CEO</p>
+                  </div>
+                  <a href="portfolio4" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          
         </div>
-
-      </div>
-    </section><!-- End Team Section -->
+          <button type="button" class="btn btn-primary mt-5 d-block mx-auto">
+            Learn More
+          </button>
+    </section>
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->

@@ -73,9 +73,7 @@
           <div class="col-lg-3 col-md-6 footer-contact footer-links">
             <h3>Qavaa</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
+            you can reach us at any time on our different contact<br><br>
               <strong>Phone:</strong><a  target="_blank" rel="noopener noreferrer"> +1 410 929 7684<br>
               <strong>Email:</strong><a href="http://info@qavaa.com" target="_blank" rel="noopener noreferrer" > info@qavaa.com</a> <br>
             </p>
@@ -93,9 +91,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">E-Commerce</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Consulting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Social Work</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="ecommerce">E-Commerce</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="consulting">Consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="socialwork">Social Work</a></li>
             </ul>
           </div>
 

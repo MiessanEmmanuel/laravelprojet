@@ -96,208 +96,210 @@
   <section id="pricing" class="pricing">
       <div id="website-development" class="container" data-aos="fade-up">
 
-      <div class="text-center">
-        <h2  class="text-center">Website development</h2>
-        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci?</p>
-      </div>
-      <div class="mx-auto  ">
-        <div class="row">
+        <div class="text-center">
+          <h2  class="text-center">Website development</h2>
+          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci?</p>
+        </div>
+        <div class="mx-auto  ">
+          <div class="row">
 
-          <div class="col-lg-4 text-center " data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <div class="row pt-0">
-                <div class="col-6 px-0">
-                  <h3>One Page Website</h3>
-                  <h6><sup>$</sup>350 to <sup>$</sup>800</h6>
-                </div>
-                <div class="col-1 px-0 mx-0">/</div>
-                <div class="col-5 px-0">
-                  <h3>Simple Website</h3>
-                  <h6><sup>$</sup>400 to <sup>$</sup>900</h6>
-                </div>
-              </div>
-              <ul class="">
-                 <li class="px-0 fw-bold text-center">Included Function</li>
-                  <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
-                  <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
-                  <li><i class="bx bx-check"></i>Embedded videos</li>
-                  <li><i class="bx bx-check"></i> Navigation and user</li>
-                  <li><i class="bx bx-check"></i> friendliness</li>
-                  <li><i class="bx bx-check"></i> Save</li>
-                  <li><i class="bx bx-check"></i> Improve the speed of the site</li>
-                  <div class="row pt-0">
-                    <div class="col-5"><li><i class="bx bx-check"></i> 1 Page</li></div>
-                    <div class="col-1 align-self-center">/</div>
-                    <div class="col-5"><li><i class="bx bx-check"></i> 5 Page</li></div>
+            <div class="col-lg-4 text-center " data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <div class="row pt-0">
+                  <div class="col-6 px-0">
+                    <h3>One Page Website</h3>
+                    <h6><sup>$</sup>350 to <sup>$</sup>800</h6>
                   </div>
-                  <li class="na"><i class="bx bx-x"></i><span>Shopping</span> </li>
-                  <li class="na"><i class="bx bx-x"></i><span>Integration</span> </li>
-              </ul>
-              <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Optional Functions
-                </a>
-                
-              </p>
-              <div class="collapse my-3" id="collapseExample">
-                <div class="card card-body">
-                <ul>
-                  <li><i class="bx bx-check"></i> Document management</li>
-                  <li><i class="bx bx-check"></i> Hosting</li>
-                  <li><i class="bx bx-check"></i>30 Go Storage</li>
-                  <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
-                  <li><i class="bx bx-check"></i> Register/login</li>
-                  <li><i class="bx bx-check"></i> Email accounts</li>
-                  <li><i class="bx bx-check"></i> Themes and designs</li>
-                  <li><i class="bx bx-check"></i> Curseur personalise</li>
-                  <li><i class="bx bx-check"></i> Contact form</li>
-                  <li><i class="bx bx-check"></i> Newsletters</li>
-                  <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
-                  <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
-                  <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
-                  <li><i class="bx bx-check"></i> Maintenance</li>
-                  <li><i class="bx bx-check"></i> Customer tech support</li>
-                  <li><i class="bx bx-check"></i> Back-End</li>
-                  <li><i class="bx bx-check"></i> Referencing management</li>
-                  <li><i class="bx bx-check"></i> Advertising</li>
-                  <li><i class="bx bx-check"></i> Multilingual</li>
-                  <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
-                  <li><i class="bx bx-check"></i> E-commerce capabilities</li>
-                  <li><i class="bx bx-check"></i> Social Media integration</li>
-                  <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
-                </ul>
-                
+                  <div class="col-1 px-0 mx-0">/</div>
+                  <div class="col-5 px-0">
+                    <h3>Simple Website</h3>
+                    <h6><sup>$</sup>400 to <sup>$</sup>900</h6>
+                  </div>
                 </div>
+                <ul class="">
+                  <li class="px-0 fw-bold text-center">Included Function</li>
+                    <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
+                    <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
+                    <li><i class="bx bx-check"></i>Embedded videos</li>
+                    <li><i class="bx bx-check"></i> Navigation and user</li>
+                    <li><i class="bx bx-check"></i> friendliness</li>
+                    <li><i class="bx bx-check"></i> Save</li>
+                    <li><i class="bx bx-check"></i> Improve the speed of the site</li>
+                    <div class="row pt-0">
+                      <div class="col-5"><li><i class="bx bx-check"></i> 1 Page</li></div>
+                      <div class="col-1 align-self-center">/</div>
+                      <div class="col-5"><li><i class="bx bx-check"></i> 5 Page</li></div>
+                    </div>
+                    <li class="na"><i class="bx bx-x"></i><span>Shopping</span> </li>
+                    <li class="na"><i class="bx bx-x"></i><span>Integration</span> </li>
+                </ul>
+                <p>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Optional Functions
+                  </a>
+                  
+                </p>
+                <div class="collapse my-3" id="collapseExample">
+                  <div class="card card-body">
+                  <ul>
+                    <li><i class="bx bx-check"></i> Document management</li>
+                    <li><i class="bx bx-check"></i> Hosting</li>
+                    <li><i class="bx bx-check"></i>30 Go Storage</li>
+                    <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
+                    <li><i class="bx bx-check"></i> Register/login</li>
+                    <li><i class="bx bx-check"></i> Email accounts</li>
+                    <li><i class="bx bx-check"></i> Themes and designs</li>
+                    <li><i class="bx bx-check"></i> Curseur personalise</li>
+                    <li><i class="bx bx-check"></i> Contact form</li>
+                    <li><i class="bx bx-check"></i> Newsletters</li>
+                    <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
+                    <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
+                    <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
+                    <li><i class="bx bx-check"></i> Maintenance</li>
+                    <li><i class="bx bx-check"></i> Customer tech support</li>
+                    <li><i class="bx bx-check"></i> Back-End</li>
+                    <li><i class="bx bx-check"></i> Referencing management</li>
+                    <li><i class="bx bx-check"></i> Advertising</li>
+                    <li><i class="bx bx-check"></i> Multilingual</li>
+                    <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
+                    <li><i class="bx bx-check"></i> E-commerce capabilities</li>
+                    <li><i class="bx bx-check"></i> Social Media integration</li>
+                    <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
+                  </ul>
+                  
+                  </div>
+                </div>
+                
+                <a href="#" class="buy-btn">Get Started</a>
               </div>
-              
-              <a href="#" class="buy-btn">Get Started</a>
             </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="200">
+              <div class="box featured">
+                  
+                  <div class="">
+                    <h3>Store Website</h3>
+                    <h6><sup>$</sup>400 to <sup>$</sup>900</h6>
+                  </div>
+                
+                <ul>
+                  <li class="px-0 fw-bold text-center">Included Function</li>
+                    <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
+                    <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
+                    <li><i class="bx bx-check"></i>Embedded videos</li>
+                    <li><i class="bx bx-check"></i> Navigation and user</li>
+                    <li><i class="bx bx-check"></i> friendliness</li>
+                    <li><i class="bx bx-check"></i> Save</li>
+                    <li><i class="bx bx-check"></i> Improve the speed of the site</li>
+                    <li><i class="bx bx-check"></i>10 Page</li>
+                    <li><i class="bx bx-check"></i> Shopping</li>
+                    <li><i class="bx bx-check"></i>1 Integration</li>
+                    
+                </ul>
+                <p>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Optional Functions
+                  </a>
+                  
+                </p>
+                <div class="collapse my-3" id="collapseExample">
+                  <div class="card card-body">
+                  <ul>
+                    <li><i class="bx bx-check"></i> Document management</li>
+                    <li><i class="bx bx-check"></i> Hosting</li>
+                    <li><i class="bx bx-check"></i>30 Go Storage</li>
+                    <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
+                    <li><i class="bx bx-check"></i> Register/login</li>
+                    <li><i class="bx bx-check"></i> Email accounts</li>
+                    <li><i class="bx bx-check"></i> Themes and designs</li>
+                    <li><i class="bx bx-check"></i> Curseur personalise</li>
+                    <li><i class="bx bx-check"></i> Contact form</li>
+                    <li><i class="bx bx-check"></i> Newsletters</li>
+                    <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
+                    <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
+                    <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
+                    <li><i class="bx bx-check"></i> Maintenance</li>
+                    <li><i class="bx bx-check"></i> Customer tech support</li>
+                    <li><i class="bx bx-check"></i> Back-End</li>
+                    <li><i class="bx bx-check"></i> Referencing management</li>
+                    <li><i class="bx bx-check"></i> Advertising</li>
+                    <li><i class="bx bx-check"></i> Multilingual</li>
+                    <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
+                    <li><i class="bx bx-check"></i> E-commerce capabilities</li>
+                    <li><i class="bx bx-check"></i> Social Media integration</li>
+                    <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
+                  </ul>
+                  
+                  </div>
+                </div>
+                <a href="#" class="buy-btn">Get Started</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 text-center " data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <h3>App</h3>
+                <h6>From <sup>$</sup>1000+ </h6>
+                <ul>
+                  <li class="px-0 fw-bold text-center">Included Function</li>
+                    <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
+                    <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
+                    <li><i class="bx bx-check"></i>Embedded videos</li>
+                    <li><i class="bx bx-check"></i> Navigation and user</li>
+                    <li><i class="bx bx-check"></i> friendliness</li>
+                    <li><i class="bx bx-check"></i> Save</li>
+                    <li><i class="bx bx-check"></i> Improve the speed of the site</li>
+                    <li><i class="bx bx-check"></i>More than 10 page</li>
+                    <li><i class="bx bx-check"></i> Shopping</li>
+                    <li><i class="bx bx-check"></i>1 Integration</li>
+                    
+                  </ul>
+                <p>
+                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Optionnal Functions
+                  </a>
+                  
+                </p>
+                <div class="collapse my-3" id="collapseExample">
+                  <div class="card card-body">
+                  <ul>
+                    <li><i class="bx bx-check"></i> Document management</li>
+                    <li><i class="bx bx-check"></i> Hosting</li>
+                    <li><i class="bx bx-check"></i>30 Go Storage</li>
+                    <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
+                    <li><i class="bx bx-check"></i> Register/login</li>
+                    <li><i class="bx bx-check"></i> Email accounts</li>
+                    <li><i class="bx bx-check"></i> Themes and designs</li>
+                    <li><i class="bx bx-check"></i> Curseur personalise</li>
+                    <li><i class="bx bx-check"></i> Contact form</li>
+                    <li><i class="bx bx-check"></i> Newsletters</li>
+                    <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
+                    <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
+                    <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
+                    <li><i class="bx bx-check"></i> Maintenance</li>
+                    <li><i class="bx bx-check"></i> Customer tech support</li>
+                    <li><i class="bx bx-check"></i> Back-End</li>
+                    <li><i class="bx bx-check"></i> Referencing management</li>
+                    <li><i class="bx bx-check"></i> Advertising</li>
+                    <li><i class="bx bx-check"></i> Multilingual</li>
+                    <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
+                    <li><i class="bx bx-check"></i> E-commerce capabilities</li>
+                    <li><i class="bx bx-check"></i> Social Media integration</li>
+                    <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
+                  </ul>
+                  
+                  </div>
+                </div>
+                
+                <a href="#" class="buy-btn">Get Started</a>
+              </div>
+            </div>
+                  
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-                
-                <div class="">
-                  <h3>Store Website</h3>
-                  <h6><sup>$</sup>400 to <sup>$</sup>900</h6>
-                </div>
-              
-              <ul>
-                 <li class="px-0 fw-bold text-center">Included Function</li>
-                  <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
-                  <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
-                  <li><i class="bx bx-check"></i>Embedded videos</li>
-                  <li><i class="bx bx-check"></i> Navigation and user</li>
-                  <li><i class="bx bx-check"></i> friendliness</li>
-                  <li><i class="bx bx-check"></i> Save</li>
-                  <li><i class="bx bx-check"></i> Improve the speed of the site</li>
-                  <li><i class="bx bx-check"></i>10 Page</li>
-                  <li><i class="bx bx-check"></i> Shopping</li>
-                  <li><i class="bx bx-check"></i>1 Integration</li>
-                  
-              </ul>
-              <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Optional Functions
-                </a>
-                
-              </p>
-              <div class="collapse my-3" id="collapseExample">
-                <div class="card card-body">
-                <ul>
-                  <li><i class="bx bx-check"></i> Document management</li>
-                  <li><i class="bx bx-check"></i> Hosting</li>
-                  <li><i class="bx bx-check"></i>30 Go Storage</li>
-                  <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
-                  <li><i class="bx bx-check"></i> Register/login</li>
-                  <li><i class="bx bx-check"></i> Email accounts</li>
-                  <li><i class="bx bx-check"></i> Themes and designs</li>
-                  <li><i class="bx bx-check"></i> Curseur personalise</li>
-                  <li><i class="bx bx-check"></i> Contact form</li>
-                  <li><i class="bx bx-check"></i> Newsletters</li>
-                  <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
-                  <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
-                  <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
-                  <li><i class="bx bx-check"></i> Maintenance</li>
-                  <li><i class="bx bx-check"></i> Customer tech support</li>
-                  <li><i class="bx bx-check"></i> Back-End</li>
-                  <li><i class="bx bx-check"></i> Referencing management</li>
-                  <li><i class="bx bx-check"></i> Advertising</li>
-                  <li><i class="bx bx-check"></i> Multilingual</li>
-                  <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
-                  <li><i class="bx bx-check"></i> E-commerce capabilities</li>
-                  <li><i class="bx bx-check"></i> Social Media integration</li>
-                  <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
-                </ul>
-                
-                </div>
-              </div>
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 text-center " data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>App</h3>
-              <h6>From <sup>$</sup>1000+ </h6>
-              <ul>
-                <li class="px-0 fw-bold text-center">Included Function</li>
-                  <li><i class="bx bx-check"></i> landing pages and Optin forms</li>
-                  <li><i class="bx bx-check"></i> Images,sliders(image gallery management)</li>
-                  <li><i class="bx bx-check"></i>Embedded videos</li>
-                  <li><i class="bx bx-check"></i> Navigation and user</li>
-                  <li><i class="bx bx-check"></i> friendliness</li>
-                  <li><i class="bx bx-check"></i> Save</li>
-                  <li><i class="bx bx-check"></i> Improve the speed of the site</li>
-                  <li><i class="bx bx-check"></i>More than 10 page</li>
-                  <li><i class="bx bx-check"></i> Shopping</li>
-                  <li><i class="bx bx-check"></i>1 Integration</li>
-                  
-                </ul>
-              <p>
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Optionnal Functions
-                </a>
-                
-              </p>
-              <div class="collapse my-3" id="collapseExample">
-                <div class="card card-body">
-                <ul>
-                  <li><i class="bx bx-check"></i> Document management</li>
-                  <li><i class="bx bx-check"></i> Hosting</li>
-                  <li><i class="bx bx-check"></i>30 Go Storage</li>
-                  <li><i class="bx bx-check"></i> Sign-up forms, newsletter forms, info-for-product forms</li>
-                  <li><i class="bx bx-check"></i> Register/login</li>
-                  <li><i class="bx bx-check"></i> Email accounts</li>
-                  <li><i class="bx bx-check"></i> Themes and designs</li>
-                  <li><i class="bx bx-check"></i> Curseur personalise</li>
-                  <li><i class="bx bx-check"></i> Contact form</li>
-                  <li><i class="bx bx-check"></i> Newsletters</li>
-                  <li><i class="bx bx-check"></i> Management of reservations and appointments</li>
-                  <li><i class="bx bx-check"></i> Online Sales & Shopping cart</li>
-                  <li><i class="bx bx-check"></i> Safety and security (SSL, encryptions, captcha)</li>
-                  <li><i class="bx bx-check"></i> Maintenance</li>
-                  <li><i class="bx bx-check"></i> Customer tech support</li>
-                  <li><i class="bx bx-check"></i> Back-End</li>
-                  <li><i class="bx bx-check"></i> Referencing management</li>
-                  <li><i class="bx bx-check"></i> Advertising</li>
-                  <li><i class="bx bx-check"></i> Multilingual</li>
-                  <li><i class="bx bx-check"></i> Customer mgmt / Social</li>
-                  <li><i class="bx bx-check"></i> E-commerce capabilities</li>
-                  <li><i class="bx bx-check"></i> Social Media integration</li>
-                  <li class=""><i class="bx bx-check"></i> <span>Documents export (Excel, csv, pdf, etc)</span></li>
-                </ul>
-                
-                </div>
-              </div>
-              
-              <a href="#" class="buy-btn">Get Started</a>
-            </div>
-          </div>
-                
         </div>
 
-      </div>
+        </div> 
      
   </section><!-- End Pricing Section -->
 
