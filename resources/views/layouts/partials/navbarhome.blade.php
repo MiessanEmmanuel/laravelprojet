@@ -10,12 +10,12 @@
       <nav id="navbar" class="navbar ">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
-          <li><a class="nav-link scrollto {{$value_menu_about?? ''}}" href="about">About</a></li>
+          <li><a class="nav-link scrollto" href="about">About</a></li>
           <li class="dropdown"><a class="nav-link scrollto {{$value_menu_ecommerce?? ''}}" href="ecommerce"><span>E-commerce</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="#">Membership</a></li>
-                  <li><a href="#">Digital Marketing</a></li>
-                </ul>
+            <ul>
+              <li><a href="#">Membership</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+            </ul>
           </li>
           <li class="dropdown"><a class="nav-link scrollto {{$value_menu_consulting?? ''}} " href="consulting"><span>Consulting</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
@@ -29,14 +29,8 @@
                   <li><a href="#">Our initiative</a></li>
                 </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a class="nav-link scrollto {{$value_menu_service?? ''}}" href="service">Services</a></li>
-                  <li><a class="nav-link scrollto {{$value_menu_pricing?? ''}}" href="pricing">Pricing</a></li>
-                  <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
-                </ul>
-          </li>
-        </ul>
+          <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
+      </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 

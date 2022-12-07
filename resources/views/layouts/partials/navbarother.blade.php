@@ -30,13 +30,13 @@
               <li><a href="#">Our initiative</a></li>
             </ul>
       </li>
-      <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+      <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
+      <!--li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto {{$value_menu_service?? ''}}" href="service">Services</a></li>
               <li><a class="nav-link scrollto {{$value_menu_pricing?? ''}}" href="pricing">Pricing</a></li>
-              <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
             </ul>
-      </li>
+      </li-->
 
             
       
