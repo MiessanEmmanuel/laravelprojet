@@ -28,8 +28,8 @@ class ContactRequest extends FormRequest
             'last_name' => 'required|max:255',
             'email' => 'required|unique:contacts|max:255',
             'phone' => 'required|unique:contacts|max:255',
-            'company'=> 'required|max:255',
-            'website' => 'required|max:255',
+            'company'=> 'max:255',
+            'website' => 'max:255',
             'service'=> 'required|max:255',
             'message'=> 'required'
         ];
