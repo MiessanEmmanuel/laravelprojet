@@ -59,7 +59,7 @@
           </div>
          
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <a href="https://qavaa.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/Qavaa-website-logo.png')}}" class="img-fluid" alt=""></a>
+          <a href="https://qavaa.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('img/clients/qavaa-website-logo.png')}}" class="img-fluid" alt=""></a>
           </div>
           
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
@@ -283,7 +283,7 @@
           </div>
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box " >
-              <div class="icon"><img src="{{asset('img/clients/extravagant-grace.png')}}" class="img-fluid d-block mx-auto" alt="" style=" height:150px;"></div>
+              <div class="icon"><img src="{{asset('img/clients/Extravagant-Grace.png')}}" class="img-fluid d-block mx-auto" alt="" style=" height:150px;"></div>
               <h4><a href="https://extravagantgracebook.com" target="_blank" rel="noopener noreferrer">Extravagant grace</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>

@@ -3,7 +3,7 @@
 @section('content')
 <div class="aboutother-banniere aboutother-banniere-services container-fuild py-5" style="">
    <div class="section-title">
-      <h2>{{ $title}}</h2>
+      <h2>E-commerce</h2>
    </div>
 </div>
 

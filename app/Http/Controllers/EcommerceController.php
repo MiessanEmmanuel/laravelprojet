@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\NewsletterRequest;
 
 class EcommerceController extends Controller
 {
     public function create()
     {
-        $title = 'E-commerce' ;
+        $title = 'Ecommerce' ;
          $value_menu_ecommerce = 'active';
         return view('ecommerce', [
             
@@ -25,7 +26,7 @@ class EcommerceController extends Controller
         $newsletter->newletter_email = $request->newletter_email;
 
         if($newsletter -> save()){
-            $title = 'E-commerce' ;
+            $title = 'Ecommerce' ;
             $value_menu_ecommerce = 'active';
            return view('ecommerce', [
                'title' =>  $title,

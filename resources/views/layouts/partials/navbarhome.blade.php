@@ -1,9 +1,9 @@
 
-<header id="header" class="">
+<header id="header" class="fixed-top ">
   
     <div class="container d-flex  justify-content-between">
 
-    <a href="home" class="logo me-auto"><img src="{{asset('img/clients/Qavaa-Group.png')}}" alt="oups" class ="logo mb-2" style="width: 150px;"></a>
+    <a href="/" class="logo me-auto"><img src="{{asset('img/clients/Qavaa-Group.png')}}" alt="oups"  style="width: 150px;"></a>
       
 
       <nav id="navbar" class="navbar ">

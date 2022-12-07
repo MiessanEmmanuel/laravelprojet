@@ -11,8 +11,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('img/favicon.png')}}" rel="icon">
-    <link href="{{asset('img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('img/apple-touch-icon.jpg')}}" rel="icon" style="width: 32px;height: 32px;">
+    <link href="{{asset('img/apple-touch-icon.jpg')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
