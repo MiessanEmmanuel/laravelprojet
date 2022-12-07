@@ -87,7 +87,7 @@
                 <div class="ville_contact3 rounded-3 w-25 mx-4  text-dark " data-aos="fade-left">
                     <div class="container pt-2 mb-3">
                       <img  src="{{asset('img/cta-bg.jpg')}}" alt="" class="w-100 rounded-3">
-                      <h4 class="mt-3">Paris</h4>
+                      <h4 class="mt-3">Lagos</h4>
                     </div>
                     <div class="container">
                       <p class=" text-start">
@@ -113,12 +113,6 @@
 
           <div class="col-lg-5 d-flex align-items-stretch ">
             <div class="info" style="overflow: hidden;">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>

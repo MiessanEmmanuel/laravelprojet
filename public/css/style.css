@@ -139,7 +139,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 54px;
 }
 
 /*--------------------------------------------------------------
@@ -1890,13 +1890,11 @@ z-index: 2;
 }
 
 /* =========== barre de navigation por les autre pages a part home =======*/
-#headerother{
+.headerother{
     background-color:  #37517e;
 
 }
-.logo{
-    width: 300px;
-}
+
 
 
   /*--------------------------------------------------------------

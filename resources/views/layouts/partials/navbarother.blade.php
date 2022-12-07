@@ -1,12 +1,12 @@
 
-<header id="headerother" class="">
+<header id="header" class="headerother fixed-top">
 
 
 <div class="container d-flex  justify-content-between">
 
-<img src="{{asset('img/Qavaaconsulting.png')}}" alt="oups" class ="logo mb-2">
+<a href="home" class="logo me-auto"><img src="{{asset('img/clients/Qavaa-Group.png')}}" alt="oups" class ="logo mb-2" style="width: 150px;"></a>
   <!-- Uncomment below if you prefer to use an image logo -->
-  <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  <!-- <img src="assets/img/logo.png" alt="" class="img-fluid">-->
 
   <nav id="navbar" class="navbar ">
     <ul class="navbar_others">
