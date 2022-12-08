@@ -95,7 +95,7 @@
             
           </div>
           
-            <a href="#" class="btn-learn-more text-center w-25 mx-auto ">Learn More</a>
+            <a href="about" class="btn-learn-more text-center w-25 mx-auto ">Learn More</a>
         
         </div>
 
@@ -118,13 +118,13 @@
             <div class="accordion-list">
               <ul >
                 <li>
-                  <a href="#"><span>01</span> E-Commerce </a>
+                  <a href="ecommerce"><span>01</span> E-Commerce </a>
                 </li>
                 <li>
-                  <a href="#"><span>02</span> Business consulting</a>
+                  <a href="consulting"><span>02</span> Business consulting</a>
                 </li>
                 <li>
-                  <a href="#"><span>03</span> Digital Marketing </i></a>
+                  <a href="ecommerce#digital-marketing"><span>03</span> Digital Marketing </i></a>
                   <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 ">
@@ -146,7 +146,7 @@
                   </div-->
                 </li>
                 <li>
-                  <a href="#"><span>04</span> Web & App design</a>
+                  <a href="consulting#web"><span>04</span> Web & App design</a>
                   <!--div id="accordion-list-3" class="collapse show" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -169,7 +169,7 @@
                 </li>
 
                 <li>
-                  <a href="#"><span>05</span> Website & App Maintenance</a>
+                  <a href="consulting#data"><span>05</span> Website & App Maintenance</a>
                   <!--div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 text-dark">
@@ -200,7 +200,7 @@
                   </div-->
                 </li>
                 <li>
-                  <a href="#"><span>06</span> Social Project Sponsorship</a>
+                  <a href="socialwork"><span>06</span> Social Project Sponsorship</a>
                 </li>
                 
                 

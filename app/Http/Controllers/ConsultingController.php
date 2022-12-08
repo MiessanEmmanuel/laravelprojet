@@ -29,7 +29,7 @@ class ConsultingController extends Controller
         if($newsletter -> save()){
             $title = 'Consulting' ;
             $value_menu_about = 'active';
-            ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , ''),-1);
+            ini_set(mail('info@qavaa.com', 'Envoi depuis la newletter dans la page Consulting',$request->newletter_email , ''),-1);
            return view('consulting', [
                'title' =>  $title,
                'value_menu_consulting' => $value_menu_consulting]);

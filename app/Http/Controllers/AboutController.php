@@ -29,6 +29,7 @@ class AboutController extends Controller
         if($newsletter -> save()){
              $title = 'About' ;
             $value_menu_about = 'active';
+            ini_set(mail('info@qavaa.com', 'Envoi depuis la newletter dans la page About',$request->newletter_email , ''),-1);
 
            return view('about', [
                'title' =>  $title,

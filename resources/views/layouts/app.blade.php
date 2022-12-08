@@ -49,7 +49,10 @@
           <div class="col-lg-6">
             <h4 class = ''>Join Our Newsletter</h4>
             <p>Sign-up for our newsletter to receive useful resources from our team</p>
-            <form action="{{if(strtolower($title)=='contact'){$title='traitement'} }} " method="post">
+            <?php  if($title == 'Home'){
+              $title = 'contact';
+            } ?>
+            <form action="{{ strtolower($title)}}" method="post">
               @csrf
               <input type="email" name="newletter_email">
               <input type="submit" value="Subscribe" class="" >

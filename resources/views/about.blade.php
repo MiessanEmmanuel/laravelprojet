@@ -20,13 +20,10 @@
                 <h4 class="d-block mx-auto fw-light">Our Values</h4>
                 <div class="mt-2">
                   <p class="mt-1 txt-our ">
-                  We work effortless towards achieving the needs and satisfactions of 
-                  the society and Africa at large. These values are set and meet by 
-                  our zealous team in every aspect of the work we do. 
-                  <ul class="enumeration">
-                    <li><i class="ri-check-double-line me-2 fs-5"></i>Transparency</li>
-                    <li><i class="ri-check-double-line me-2 fs-5"></i>Connectivity (Connection)</li>
-                  </ul>
+                  We work tirelessly towards delighting our customers with exceptional quality services and 
+                  find profound pride in building world-class tech talent in Africa. 
+                  These values are set and met by our team in every aspect of the work we do. 
+                
                     <div class="py-4">
                       <button type="button" class="btn btn-outline-primary  aboutbut-our w-25 d-block mx-auto ">Learn more</button>
                     </div>
@@ -58,89 +55,7 @@
       </div>
     </section>
     
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="mb-5">
-          <h2 class="text-center mb-4 fw-bold">Team</h2>
-          <p class="w-75  mx-auto text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="presentation ">
-              <img src="{{asset('img/team/team-1.jpg')}}" alt="oups" class="w-100">
-            </div>
-            <div class="info-presentation">
-              <div class="info-presentation-text position-relative">
-                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
-                  <div class="">
-                    <h4>Marcus Doe</h4>
-                    <p>CEO</p>
-                  </div>
-                  <a href="portfolio1" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="presentation">
-              <img src="{{asset('img/team/team-2.jpg')}}" alt="oups" class="w-100">
-            </div>
-            <div class="info-presentation">
-              <div class="info-presentation-text position-relative">
-                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
-                  <div class="">
-                    <h4>Marcus Doe</h4>
-                    <p>CEO</p>
-                  </div>
-                  <a href="portfolio2" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-          <div class="presentation">
-              <img src="{{asset('img/team/team-3.jpg')}}" alt="oups" class="w-100">
-            </div>
-            <div class="info-presentation">
-              <div class="info-presentation-text position-relative">
-                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
-                  <div class="">
-                    <h4>Marcus Doe</h4>
-                    <p>CEO</p>
-                  </div>
-                  <a href="portfolio3" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="presentation">
-              <div>
-                <img src="{{asset('img/team/team-4.jpg')}}" alt="oups" class="w-100">
-              </div>
-            </div>
-            <div class="info-presentation">
-              <div class="info-presentation-text position-relative">
-                <div class="info-presentation-text-position position-absolute bottom-0 start-0 d-flex w-100 justify-content-between p-3">
-                  <div class="">
-                    <h4>Marcus Doe</h4>
-                    <p>CEO</p>
-                  </div>
-                  <a href="portfolio4" class="d-block align-self-center" target="blank" name="portfolio"><i class="bi bi-plus-circle text-primary"></i></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-          <button type="button" class="btn btn-primary mt-5 d-block mx-auto">
-            Learn More
-          </button>
-    </section>
+   
     <!--section class="container row fin_about">
       <div class="col-8 img_finAbout position-relative ">
             <img src="{{asset('img/portfolio/portfolio-8.jpg')}}" alt="oups l'image ne s'est pas affiché" class = "w-100 ">
@@ -157,24 +72,28 @@
       
       </div>
     </section-->
-    <section class="container content" data-aos="fade-up">
-      <div class="mb-4">
+    <section class=" content section-bg" data-aos="fade-up">
+      <div class="container">
+        <div class="mb-4">
         <h2 class="text-center fw-bold">Lorem, ipsum.</h2>
-      </div>
-      <div class="row mt-5">
+        </div>
+        <div class="row mt-5">
           <div class="col-lg-6">
           <img src="{{asset('img/portfolio/portfolio-7.jpg')}}" alt="oups l'image ne s'est pas affiché" class = "w-100 ">
 
           </div>
           <div class="col-lg-6 center mt-xl-4 mt-3">
               <p class="txt-our"> 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa facilis perspiciatis excepturi eos cupiditate nihil sed consectetur laudantium fugiat repellat?
-                Ullam quidem fuga illo officia, odit nostrum repellat pariatur praesentium. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, voluptate quisquam? Accusantium ad, minima sint, commodi provident impedit 
-                animi iure voluptatum eos laborum placeat saepe. Animi nobis voluptatem veritatis a.
+              Qavaa Group is a social enterprise which seeks to enable sustainable development in Africa by encouraging aspiring entrepreneurs and sidepreneurs to give free expression to their dreams and foster economic growth within their community.
+
+              We're mission driven, and we target our efforts at meeting the needs of our clients with their satisfaction in mind.
+
+              We also help startups and established firms with their digital marketing leads, online presence management, website management, and general business consulting, for a better business experience and growth
               </p>
           </div>
+        </div>
       </div>
+      
     </section>
 </main><!-- End About Us main -->
 @endsection('content')

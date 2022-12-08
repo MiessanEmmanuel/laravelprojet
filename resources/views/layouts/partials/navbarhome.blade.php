@@ -19,7 +19,6 @@
           <li class="dropdown"><a class="nav-link scrollto {{$value_menu_consulting?? ''}} " href="consulting"><span>Consulting</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="consulting#web">Web Design</a></li>
-                  <li><a href="#">App Design</a></li>
                   <li><a href="consulting#data">Maintenance</a></li>
                 </ul>
           </li>
