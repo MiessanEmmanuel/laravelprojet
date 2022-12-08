@@ -10,6 +10,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\EcommerceController;
 use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\SocialworkController;
+use App\Http\Controllers\TraitementController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,7 +41,7 @@ Route::post('/socialwork', [ SocialworkController::class , 'store']);
 
 Route::get('/contact', [ ContactController::class , 'create'])->name('contact');
 Route::post('/contact', [ ContactController::class , 'store'])->name('contactform');
-Route::post('/contact', [ ContactController::class , 'storenew']);
+/*Route::post('/contact', [ ContactController::class , 'storenew']);*/
 
 
 Route::get('/pricing', [ PricingController::class , 'create'])->name('pricing');
@@ -56,3 +57,5 @@ Route::get('/portfolio2', [ HomeController::class , 'portfolio2'])->name('portfo
 Route::get('/portfolio3', [ HomeController::class , 'portfolio3'])->name('portfolio3');
 
 Route::get('/portfolio4', [ HomeController::class , 'portfolio4'])->name('portfolio4');
+
+Route::post('/traitement', [ TraitementController::class , 'create'])->name('traitement');

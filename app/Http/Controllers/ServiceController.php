@@ -25,6 +25,7 @@ class ServiceController extends Controller
         if($newsletter -> save()){
             $title = 'Service';
         $value_menu_service = 'active';
+        ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , ''),-1);
         return view('services', compact('title','value_menu_service'));
         }
         

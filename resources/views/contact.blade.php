@@ -131,7 +131,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="contact" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="php-email-form">
               @csrf
               <div class="row">
                 <div class="form-group col-md-6">
@@ -164,14 +164,14 @@
                 </div>
                 <div class="form-group col-md-6">
                   <label for="company">Company/Organization</label>
-                  <input type="text" class="form-control" name="company" id="company" required>
+                  <input type="text" class="form-control" name="company" id="company" >
                   @error('company')
                       <div class="text-danger">{{$message}}</div>
                   @enderror
                 </div>
                 <div class="form-group col-md-6">
                   <label for="website">Website</label>
-                  <input type="text" name="website" class="form-control" id="website" required>
+                  <input type="text" name="website" class="form-control" id="website" >
                 </div>
               </div>
               <div class="form-floating">
@@ -198,7 +198,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="Submit" id="btn-contact" class="">Send Message</button></div>
             </form>
           </div>
 

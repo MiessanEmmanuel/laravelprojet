@@ -49,10 +49,10 @@
           <div class="col-lg-6">
             <h4 class = ''>Join Our Newsletter</h4>
             <p>Sign-up for our newsletter to receive useful resources from our team</p>
-            <form action="{{ strtolower($title) }}" method="POST">
+            <form action="{{if(strtolower($title)=='contact'){$title='traitement'} }} " method="post">
               @csrf
               <input type="email" name="newletter_email">
-              <input type="submit" value="Subscribe" class="btn_newletter" required>
+              <input type="submit" value="Subscribe" class="" >
                         
             </form>
                     @error('newletter_email')

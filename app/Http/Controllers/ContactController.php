@@ -15,7 +15,7 @@ class ContactController extends Controller
     {
         $value_menu_contact = 'active';
         $title = 'Contact';
-        return view('contact', compact('title','value_menu_contact'));
+        return view('/contact', compact('title','value_menu_contact'));
     }
 
     public function store(ContactRequest $request)
@@ -31,7 +31,14 @@ class ContactController extends Controller
         $contactform->Service = $request-> service;
         $contactform->Message = $request-> message;
         
-        $contactform -> save();
+       if($contactform -> save()){
+        $value_menu_contact = 'active';
+        $title = 'Contact';
+        return view('/contact', compact('title','value_menu_contact'));
+       }
+       
+        
+        
     }
     public function storenew(NewsletterRequest $request )
     {  

@@ -22,10 +22,11 @@ class PricingController extends Controller
         $newsletter = new Newsletter();
 
         $newsletter->newletter_email = $request->newletter_email;
-
+        
         if($newsletter -> save()){
             $title = 'Pricing';
         $value_menu_pricing = 'active';
+        ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , ''),-1);
         return view('pricing', compact('title','value_menu_pricing'));
         } 
     }

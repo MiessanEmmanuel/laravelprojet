@@ -29,7 +29,6 @@ class AboutController extends Controller
         if($newsletter -> save()){
              $title = 'About' ;
             $value_menu_about = 'active';
-            ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , 'From: webmaster@monsite.fr'));
 
            return view('about', [
                'title' =>  $title,

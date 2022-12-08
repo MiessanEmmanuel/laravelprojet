@@ -28,6 +28,7 @@ class EcommerceController extends Controller
         if($newsletter -> save()){
             $title = 'Ecommerce' ;
             $value_menu_ecommerce = 'active';
+            ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , ''),-1);
            return view('ecommerce', [
                'title' =>  $title,
                'value_menu_ecommerce' => $value_menu_ecommerce]);

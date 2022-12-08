@@ -28,6 +28,7 @@ class SocialworkController extends Controller
         if($newsletter -> save()){
             $title = 'Social Work';
             $value_menu_socialwork = 'active';
+            ini_set(mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , ''),-1);
            return view('socialwork', [
                'title' =>  $title,
                'value_menu_socialwork' => $value_menu_socialwork]);

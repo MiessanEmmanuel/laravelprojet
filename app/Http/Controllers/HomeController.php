@@ -26,7 +26,6 @@ class HomeController extends Controller
 
         if($newsletter -> save()){
             
-           mail('emmanueljeanmiessan@gmail.com', 'Envoi depuis la page Contact',$request->newletter_email , 'From: webmaster@monsite.fr');
             $title = 'Home' ;
             return view('/',[
             'title' =>  $title ]);
