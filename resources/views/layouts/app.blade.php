@@ -74,11 +74,11 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact footer-links">
-            <h3>Qavaa</h3>
+          <a href="/" class="logo me-auto"><img src="{{asset('img/clients/Qavaa-Group.png')}}" alt="oups"  style="width: 150px;"></a>
             <p>
-            you can reach us at any time on our different contact<br><br>
+            <br>
               <strong>Phone:</strong><a  target="_blank" rel="noopener noreferrer"> +1 410 929 7684<br>
-              <strong>Email:</strong><a href="http://info@qavaa.com" target="_blank" rel="noopener noreferrer" > info@qavaa.com</a> <br>
+              <strong>Email:</strong><a href="mailto:info@qavaa.com"  target="_blank" rel="noopener noreferrer" > info@qavaa.com</a> <br>
             </p>
           </div>
 
@@ -102,7 +102,7 @@
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>join us on our different social networks</p>
+            <p>Join us on our different social networks</p>
             <div class="social-links mt-3">
               <a href="https://twitter.com/OfficialQavaa" class="twitter" target="_blank" rel="noopener noreferrer"><i class="bx bxl-twitter"></i></a>
               <a href="https://www.facebook.com/Qavaa" class="facebook" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
@@ -119,7 +119,7 @@
         &copy; Copyright <strong><span>Qavaa</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="home">Qavaaconsulting</a>
+        Designed by <a href="/">Qavaaconsulting</a>
       </div>
     </div>
   

@@ -393,7 +393,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: linear-gradient(180deg,#000,#37517e);
 }
 
 #hero .container {
@@ -2034,6 +2034,8 @@ z-index: 2;
 {
   transform: translateY(-10px);
   z-index: 0;
+  background-color: #37517e;
+
   width: 50% !important;
   transition-property: transform, whidth;
   transform-origin: 30% 60%;
@@ -2045,6 +2047,26 @@ z-index: 2;
   font-size: 28px;
   color: #37517e;
   font-family: "Poppins", sans-serif;
+}
+.pricing-other .website-development,
+.pricing-other .website-maintenance,
+.pricing-other .social-management{
+  background-color: white;
+}
+.pricing-other .website-development:hover,
+.pricing-other .website-maintenance:hover,
+.pricing-other .social-management:hover
+{
+  transition: all 0.6s;
+  background-color: #37517e;
+  color: white;
+}
+.pricing-other .website-development h6:hover,
+.pricing-other .website-maintenance h6:hover,
+.pricing-other .social-management h6:hover
+{
+  transition: all 0.6s;
+  color: rgb(221, 15, 15);
 }
 /*----------------------------------------------------------------
 services
@@ -2080,6 +2102,11 @@ services
   font-size: 25px !important;
   color: #37517e;
 }
+.services-other .website-development,
+.services-other .website-maintenance,
+.services-other .social-management{
+  background-color: white;
+}
 .services-other .website-development:hover,
 .services-other .website-maintenance:hover,
 .services-other .social-management:hover
@@ -2103,4 +2130,48 @@ contact
   font-size: 35px;
   color: #37517e;
   font-family: "Poppins", sans-serif;
+}
+
+/*----------------------------------------------------------------
+ecommerce
+----------------------------------------------------------------*/
+/*.membership{
+  
+}*/
+.membership .membership-text h4{
+  color: #37517e;
+  font: weight;
+  font-size: 45px;
+  margin: 15px 0;
+}
+.membership .membership-text p{
+  line-height: 35px;
+  text-align: justify;
+  margin: 20px 0px;
+}
+.membership .membership-text a{
+  color: #47b2e4;
+  padding: 10px 25px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  border: 1px solid #47b2e4;
+  transition: all 0.5s;
+}
+.membership .membership-text .bton a:hover{
+  background-color: #47b2e4;
+  color: #fff;
+}
+/*.membership .membership-img{
+
+}*/
+.membership .membership-img img{
+  width: 100%;
+}
+.digital-marketing .titre h2{
+  color: #37517e;
+  font: weight;
+  font-size: 25px;
+  margin: 15px 0;
 }

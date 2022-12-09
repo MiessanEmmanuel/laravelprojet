@@ -16,7 +16,7 @@
       <div class="container" data-aos="fade-up">
         <h2 class="fs-3 text-center fw-bold">Our Priority</h2>
         <div class = "row  flex-column-reverse  flex-lg-row  jutify-content-between pt-3 ">
-            <div class=" col-lg-6  d-flex flex-column  align-self-end pt-5  content  " data-aos="fade-right" data-aos-delay="100">
+            <div class=" col-lg-6  d-flex flex-column  align-self-center pt-5  content  " data-aos="fade-right" data-aos-delay="100">
                 <h4 class="d-block mx-auto fw-light">Our Values</h4>
                 <div class="mt-2">
                   <p class="mt-1 txt-our ">
@@ -24,9 +24,6 @@
                   find profound pride in building world-class tech talent in Africa. 
                   These values are set and met by our team in every aspect of the work we do. 
                 
-                    <div class="py-4">
-                      <button type="button" class="btn btn-outline-primary  aboutbut-our w-25 d-block mx-auto ">Learn more</button>
-                    </div>
                   </p>
                 </div>
             </div>
@@ -38,16 +35,14 @@
             <div class="col-lg-6 pt-lg-5  mx-auto d-block content  " data-aos="fade-right">
               <img src="{{asset('img/why-us.png')}}" alt="oups" class ="w-100">
             </div>
-            <div class="col-lg-6 d-flex flex-column align-self-end  content" data-aos="fade-left" >
+            <div class="col-lg-6 d-flex flex-column align-self-center  content" data-aos="fade-left" >
                 <h4 class="d-block mx-auto fw-light">Our Mission</h4>
                 <div class="mt-2">
                   <p class="mt-1 txt-our">
                     Our mission is to bring transparency and certainty in the business world amongst Africans, to render consulting services to African SMEs to enable them meet their
                      digital challenges in the 21st century, 
                     to ease the trade in Africa through reliable logistics and payments, and to manage their online presence.
-                    <div class=" py-4">
-                      <button type="button" class="btn btn-outline-primary  aboutbut-our  w-25 d-block mx-auto ">Learn more</button>
-                    </div>
+                
                   </p>
                 </div>
             </div>
@@ -75,7 +70,7 @@
     <section class=" content section-bg" data-aos="fade-up">
       <div class="container">
         <div class="mb-4">
-        <h2 class="text-center fw-bold">Lorem, ipsum.</h2>
+        <h2 class="text-center fw-bold">About</h2>
         </div>
         <div class="row mt-5">
           <div class="col-lg-6">

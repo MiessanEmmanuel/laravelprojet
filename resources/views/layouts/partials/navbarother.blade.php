@@ -24,11 +24,11 @@
               <li><a href="consulting#data">Maintenance</a></li>
             </ul>
       </li>
-      <li class="dropdown"><a class="nav-link scrollto {{$value_menu_socialwork?? ''}}" href="socialwork"><span>Social Work</span><i class="bi bi-chevron-down"></i> </a>
+      <!--li class="dropdown"><a class="nav-link scrollto {{$value_menu_socialwork?? ''}}" href="socialwork"><span>Social Work</span><i class="bi bi-chevron-down"></i> </a>
             <ul>
-              <li><a href="#">Our initiative</a></li>
+              <li><a href="#">Our initiatives</a></li>
             </ul>
-      </li>
+      </li-->
       <li><a class="nav-link scrollto {{$value_menu_contact?? ''}}" href="contact">Contact</a></li>
       <!--li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

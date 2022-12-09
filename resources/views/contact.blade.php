@@ -22,9 +22,9 @@
                       <h4 class="mt-3">Abidjan</h4>
                   </div>
                   <div class="container">
-                      <p class=" ">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                      <p class=" text-start">
+                        <a href="#" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+255 075 958 0108 </a>
                       </p>
                   </div>
                 </div>
@@ -34,21 +34,21 @@
                       <h4 class="mt-3">New-york</h4>
                     </div>
                     <div class="container">
-                      <p class=" ">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                      <p class=" text-start">
+                        <a href="mailto:info@qavaa.com" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+1 410 929 7684</a>
                       </p>
                   </div>
                 </div>
                 <div class="ville_contact3 rounded-3 w-75 text-dark mx-auto my-2 " data-aos="zoom-in" data-aos-delay="100">
                    <div class="container pt-2 mb-3">
                       <img  src="{{asset('img/cta-bg.jpg')}}" alt="" class="w-100 rounded-3">
-                      <h4 class="mt-3">Paris</h4>
+                      <h4 class="mt-3">Lagos</h4>
                     </div>
                     <div class="container">
-                      <p class="">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                      <p class=" text-start">
+                        <a href="info@qavaa.com" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+243 905 816 6925</a>
                       </p>
                   </div>
                 </div>
@@ -67,8 +67,8 @@
                   </div>
                   <div class="container">
                       <p class=" text-start">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                        <a href="#" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+255 075 958 0108 </a>
                       </p>
                   </div>
                 </div>
@@ -79,8 +79,8 @@
                     </div>
                     <div class="container">
                       <p class=" text-start">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                        <a href="mailto:info@qavaa.com" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+1 410 929 7684</a>
                       </p>
                   </div>
                 </div>
@@ -91,8 +91,8 @@
                     </div>
                     <div class="container">
                       <p class=" text-start">
-                        <a href="#" claas="text-decoration-none">lorem@gmail.com</a> <br>
-                        <a href="#">(+255) 075 232 44</a>
+                        <a href="info@qavaa.com" claas="text-decoration-none">info@qavaa.com</a> <br>
+                        <a href="#">+243 905 816 6925</a>
                       </p>
                   </div>
                 </div>
@@ -105,24 +105,23 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h3>Fill Out This Form Below, To reach us for your request.</h3>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h3 id="contact-destination">Fill Out This Form Below, To reach us for your request.</h3>
         </div>
 
-        <div class="row">
+        <div class="row" >
 
           <div class="col-lg-5 d-flex align-items-stretch ">
             <div class="info" style="overflow: hidden;">
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>info@qavaa.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+1 410 929 7684</p>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 60%;" allowfullscreen></iframe>
               

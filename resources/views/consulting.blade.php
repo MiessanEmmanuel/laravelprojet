@@ -11,11 +11,11 @@
     <!--===========Website design/development=========-->
     <section class="" >  
 
-        <div class="services-other" data-aos="fade-up"  >
+        <div class="services-other lh-lg" data-aos="fade-up"  >
             <div class="text-center mb-4 container" >
-               <h2 class="fw-bold" id="web">Website design</h2>
+               <h2 class="fw-bold" id="web">Experience the best of web design</h2>
             </div>
-            <div class="container align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse">
+            <div class="container align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse ">
                 <div class=" col-md p-3 align-items-center" data-aos="fade-right">
                     <h2 class="fw-light mb-3">Experience the best of web design</h2>
                     <p class="lh-lg">
@@ -38,17 +38,11 @@
                      </div>
                 </div>
                 <div class=" col-md p-3 align-items-center" data-aos="fade-right">
-                    <h2 class="fw-light mb-3">A good quality of service</h2>
+                    <h2 class="fw-light mb-3">Good quality of service</h2>
                     <p class="lh-lg">
                     Our website design/development involves responsiveness, nice looking site. Our team of
                      developers are skilled in various programming languages your project may require and are also skilled in Wordpress. 
-                     Our services involves:
-                    <ul class="enumeration">
-                        <li><i class="ri-check-double-line me-2 fs-5"></i>One Page Website</li>
-                        <li><i class="ri-check-double-line me-2 fs-5"></i>Simple Website</li>
-                        <li><i class="ri-check-double-line me-2 fs-5"></i>Store Website</li>
-                        <li><i class="ri-check-double-line me-2 fs-5 "></i>App</li>
-                    </ul>
+                     
                     </p>
                     
                 </div>
@@ -161,8 +155,7 @@
         <div id="website-development" class="container" data-aos="fade-up">
 
           <div class="text-center">
-            <h2  class="text-center">Website development</h2>
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci?</p>
+            <h2  class="text-center">Website Creation</h2>
           </div>
           <div class="mx-auto  ">
             <div class="row">
@@ -368,26 +361,18 @@
       </div><!-- End Pricing Section -->
     </section>
     <!--=============== Website Maintenance=============-->
-    <section class="section-bg">  
+    <section class="section-bg lh-lg">  
         <div class="container services-other"  data-aos="fade-up">
-            <div class="text-center mb-4">
-               <h3 class="fw-bold" id="data"> Maintenance</h3>
+            <div class="text-center mb-5">
+               <h3 class="fw-bold" id="data"> Get your website running smoothly</h3>
             </div>
-            <div class="align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse">
+            <div class="align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse my-5">
                 <div class=" col-md mx-3 align-items-center p-3"  data-aos="fade-right">
-                    <h2 class="fw-light mb-3">Lorem, ipsum dolor. </h2>
+                    <h2 class="fw-light mb-3">Web Maintenance Service </h2>
                     <p class="lh-lg">
-                        A proper website maintenance keeps your website looking great and responsive. Our maintenance team will keep your site up to date. Here are our services:
-                        <ul class="enumeration">
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Content Management</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Content update (e.g. Address change)</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Page creation & Update.</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Website Customization</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Section update or creation</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Graphics (section) update</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Pages content creation & update</li>
-                            <li><i class="ri-check-double-line me-2 fs-5 "></i>Web design update & Optimization</li>
-                        </ul>
+                    As a business owner, you know the importance of keeping your website and apps up and running. But what if they're not running as smoothly as they should? In this situation, 
+                    your website needs maintainance. Web and App maintenance is crucial to keeping your site or app running smoothly and avoiding common issues that can occur. However, it's important to remember that maintenance is an ongoing process, not a one-time event.
+                     Qavaa Group can help you create a comprehensive maintenance plan that will keep your site or app running optimally and help you avoid common pitfalls.
                     </p>
                     <!--a type="button" class="btn  btn-outline-primary mt-3">Subscribe</a-->
                 </div>
@@ -399,30 +384,401 @@
                
                 
             </div>
-            <div class=" align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse">
-                <div class=" col-md p-3 order-2 order-lg-1" data-aos="fade-left">
-                    <div class="">
-                        <img src="{{asset('img/dataanalytics.jpg')}}" alt="oups l'image ne s'est pas affiché" class="w-100 shadow rounded-5">
-                    </div>
-                </div>
-                <div class="  order-1 order-lg-2 col-md mx-3 align-items-center p-3"  data-aos="fade-right">
-                    <h2 class="fw-light mb-3">Lorem ipsum dolor sit. </h2>
-                    <p class="lh-lg">
-                    Keeping your website up and running lies on only one thing, that is giving it a proper maintenance. This maintenance goes far into updating the functionality of your website  and to the centent of your website and all this can be possible with our maintenance team. 
-                    Our maintenance team will maintain your business website and e-commerce sites in order to make your site remain user friendly. Contact us today!
-                       
-                    </p>
-                    <!--a type="button" class="btn  btn-outline-primary mt-3">Subscribe</a-->
-                </div>
+            <div class=" align-items-center gy-3 gx-md-4 flex-md-row my-4">
+              <div class="text-center">
+                <h2 class="fw-light my-3">Why you should keep your website up-to-date</h2>
+                <p class="text-center">Your website is like your business card. It’s one of the first things potential customers will see, so you want to make sure it’s up-to-date and reflects well on your business. Here are a few reasons why you should keep your website up-to-date:</p>
+              </div>
+               <div class="row mt-5">
+                  <div class="col-12 col-md-12 col-lg  mx-2 shadow p-3 mb-5  rounded website-maintenance">
+                        <h5 class=" text-center my-3">It Keeps You Competitive </h5>
+                        <p>
+                          If your website is looking dated, it can make potential customers think your business is, too. Keeping your site up-to-date shows that you’re keeping up with the latest trends and technologies.              
+                        </p>
+                  </div>
+                  <div class="col-12 col-md-12 col-lg mx-2 shadow p-3 mb-5  rounded website-maintenance">
+                        <h5 class=" text-center my-3">It Keeps You Competitive </h5>
+                        <p>
+                          If your website is looking dated, it can make potential customers think your business is, too. Keeping your site up-to-date shows that you’re keeping up with the latest trends and technologies.              
+                        </p>
+                  </div>
+                  <div class="col-12  col-md-12 col-lg mx-2 shadow p-3 mb-5  rounded website-maintenance">
+                        <h5 class=" text-center my-3">It Keeps You Competitive </h5>
+                        <p>
+                          If your website is looking dated, it can make potential customers think your business is, too. Keeping your site up-to-date shows that you’re keeping up with the latest trends and technologies.              
+                        </p>
+                  </div>
+        
+               </div>
                 
-            </div>
-          
-            <div class="container">
-                <a href="pricing#website-maintenance" type="button" class="  btn btn-primary mt-3 d-block mx-auto w-25 mt-5"  data-aos="zoom-in">Get started Now</a>
             </div>
             
         </div>
-        
+        <div id="pricing" class="pricing pricing-other">
+                <div id="website-maintenance" class="container" data-aos="fade-up">
+
+                  <div class="text-center">
+                    <h2 class="text-center">Website maintenance</h2>
+                    <p >The following are our pricing systems</p>
+                  </div>
+                  <div class="maintenance">
+                      <div class="flex-md-row d-flex flex-column mt-5 py-2   gy-3 gx-md-4 ">
+                        <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
+                            <h5 class=" text-center mt-3">Lite</h5>
+                            <h6 class="light mb-3 text-center">From <sup>$</sup>69.99 </h6>
+                            <div class="col">
+                              <p class=" mx-auto">Ideal for small websites that do not need continuous updates. Regular maintenance of the various components of the website will keep it going.</p>
+
+                            </div>
+                        </div>
+                        <div class="col row mx-2 shadow p-3 mb-5 rounded website-maintenance">
+                            <h5 class=" text-center mt-3">Medium</h5>
+                            <h6 class="light mb-3 text-center">From <sup>$</sup>79.99 </h6>
+                            <div class="col">
+                                <p>
+                                  Perfect for small websites that need just a bit of help with standard monthly maintenance. Essential Maintenance and content Management for your website.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col row mx-2 shadow p-3 mb-5  rounded social-management">
+                            <h5 class=" text-center mt-3">Premium</h5>
+                            <h6 class="light mb-3 text-center">From <sup>$</sup>99.99 </h6>
+                            <div class="col">
+                                <p>
+                                  Ideal for websites that are growing and need support services that go beyond the basics. Includes unlimited website edits and security setup.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
+                            <h5 class=" text-center mt-3">Custom</h5>
+                            <h6 class="light mb-3 text-center">From <sup>$</sup>149.99 </h6>
+                            <div class="col">
+                              <p class=" mx-auto">
+                                Ideal for larger websites that need priority support, plus maintenance for E-Commerce, membership sites, and websites with advanced functionality.
+                              </p>
+
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <!--div class="container Maintenance">
+                        <h3 class=" text-center my-3 fs-4">Maintenance</h3>
+                        <div class="row ">
+
+                          <div class="col-lg col-6 text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Lite Maintenance</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Basic Maintenance</li>
+                                    <li><i class="bx bx-check"></i> Domain & Hosting Assistance</li>
+                                    <li><i class="bx bx-check"></i>Web Hosting</li>
+                                    <li><i class="bx bx-check"></i>Image Optimisation</li>
+                                    <li><i class="bx bx-check"></i>Broken links check and fix</li>
+                                    <li><i class="bx bx-check"></i>WordPress Core & Plugin Update</li>
+                                
+                                <li class="px-0 fw-bold text-center">Web Scan & Health Check (Add-on)</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i> Website Health Check</li> 
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Scan Website For Malicious Issues</li>
+
+                                <li class="px-0 fw-bold text-center">Backup & Code fixes (Add-on) </li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Content Delivery Network</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Daily Backups</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Mobile responsive check</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Code fixes</li>
+                                  
+
+                                <li class="px-0 fw-bold text-center">Monitoring & Optimization </li>
+                                  <li class="na"><i class="bx bx-x"></i><span> Website Speed Optimization</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Website downtime monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Site security monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Plugin/patches updates</span></li>
+                                  
+                                <li class="px-0 fw-bold text-center">Theme Updates & Server troubleshooting</li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Theme Updates</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Trouble Shooting Server Issues</span></li>
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                          <div class="col-lg col-6 mt-4 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="200">
+                            <div class="box featured">
+                              <h3> Medium Maintenance</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Basic Maintenance</li>
+                                    <li><i class="bx bx-check"></i> Domain & Hosting Assistance</li>
+                                    <li><i class="bx bx-check"></i>Web Hosting</li>
+                                    <li><i class="bx bx-check"></i>Image Optimisation</li>
+                                    <li><i class="bx bx-check"></i>Broken links check and fix</li>
+                                    <li><i class="bx bx-check"></i>WordPress Core & Plugin Update</li>
+                                
+                                <li class="px-0 fw-bold text-center">Web Scan & Health Check (Add-on)</li>
+                                  <li><i class="bx bx-check"></i> Website Health Check</li>
+                                  <li><i class="bx bx-check"></i>Scan Website For Malicious Issues</li>
+
+                                <li class="px-0 fw-bold text-center">Backup & Code fixes (Add-on) </li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Content Delivery Network</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Daily Backups</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Mobile responsive check</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Code fixes</li>
+                                  
+
+                                <li class="px-0 fw-bold text-center">Monitoring & Optimization </li>
+                                  <li class="na"><i class="bx bx-x"></i><span> Website Speed Optimization</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Website downtime monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Site security monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Plugin/patches updates</span></li>
+                                  
+                                <li class="px-0 fw-bold text-center">Theme Updates & Server troubleshooting</li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Theme Updates</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Trouble Shooting Server Issues</span></li>
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                       
+                          <div class=" text-center col-6 col-lg" data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Premium Maintenance</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Basic Maintenance</li>
+                                    <li><i class="bx bx-check"></i> Domain & Hosting Assistance</li>
+                                    <li><i class="bx bx-check"></i>Web Hosting</li>
+                                    <li><i class="bx bx-check"></i>Image Optimisation</li>
+                                    <li><i class="bx bx-check"></i>Broken links check and fix</li>
+                                    <li><i class="bx bx-check"></i>WordPress Core & Plugin Update</li>
+                                  
+                                <li class="px-0 fw-bold text-center">Web Scan & Health Check (Add-on)</li>
+                                  <li><i class="bx bx-check"></i> Website Health Check</li>
+                                  <li><i class="bx bx-check"></i>Scan Website For Malicious Issues</li>
+
+                                <li class="px-0 fw-bold text-center">Backup & Code fixes (Add-on) </li>
+                                  <li><i class="bx bx-check"></i>Content Delivery Network</li>
+                                  <li><i class="bx bx-check"></i>Daily Backups</li>
+                                  <li><i class="bx bx-check"></i>Mobile responsive check</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Code fixes</li>
+                                  
+
+                                <li class="px-0 fw-bold text-center">Monitoring & Optimization </li>
+                                  <li><i class="bx bx-check"></i>Website Speed Optimization</li>
+                                  <li><i class="bx bx-check"></i>Website downtime monitoring</li>
+                                  <li><i class="bx bx-check"></i>Site security monitoring</li>
+                                  <li><i class="bx bx-check"></i>Plugin/patches updates</li>
+                                  
+                                <li class="px-0 fw-bold text-center">Theme Updates & Server troubleshooting</li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Theme Updates</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Trouble Shooting Server Issues</span></li>
+                              </ul>
+                            
+                              
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                          <div class=" text-center col-6 col-lg" data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Lite Maintenance</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Basic Maintenance</li>
+                                    <li><i class="bx bx-check"></i> Domain & Hosting Assistance</li>
+                                    <li><i class="bx bx-check"></i>Web Hosting</li>
+                                    <li><i class="bx bx-check"></i>Image Optimisation</li>
+                                    <li><i class="bx bx-check"></i>Broken links check and fix</li>
+                                    <li><i class="bx bx-check"></i>WordPress Core & Plugin Update</li>
+                                
+                                <li class="px-0 fw-bold text-center">Web Scan & Health Check (Add-on)</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i> Website Health Check</li> 
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Scan Website For Malicious Issues</li>
+
+                                <li class="px-0 fw-bold text-center">Backup & Code fixes (Add-on) </li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Content Delivery Network</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Daily Backups</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Mobile responsive check</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>Code fixes</li>
+                                  
+
+                                <li class="px-0 fw-bold text-center">Monitoring & Optimization </li>
+                                  <li class="na"><i class="bx bx-x"></i><span> Website Speed Optimization</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Website downtime monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Site security monitoring</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Plugin/patches updates</span></li>
+                                  
+                                <li class="px-0 fw-bold text-center">Theme Updates & Server troubleshooting</li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Theme Updates</span></li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Trouble Shooting Server Issues</span></li>
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                                
+                        </div>
+
+                      </div--><!--end div Maintenance-->
+                      <!--div class="container Content Management">
+                        <h3 class=" text-center mt-5 mb-3 fs-4 ">Content Management</h3>
+                        <div class="row">
+
+                          <div class="col-lg text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3>Lite Content Management</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center">Content Updates</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>New Product Upload</li>
+                                  <li class="na" ><i class="bi bi-dash-lg"></i>Content update (e.g. Address change)</li>
+                                
+                                <li class="px-0 fw-bold text-center">Section update or creation</li>
+                                  <li class="na"><i class="bx bx-x"></i><span> Content (section) Creation</span></li> 
+                                  <li class="na"><i class="bx bx-x"></i><span> Graphics (section) update</span></li>
+
+                              
+                                  
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+
+                          <div class="col-lg text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Medium Content Management</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center">Content Updates</li>
+                                    <li><i class="bx bx-check"></i>Content update (e.g. Address change)</li>
+                                    <li><i class="bx bx-check"></i>New Product Upload</li>
+                                    
+                                <li class="px-0 fw-bold text-center">Section update or creation</li>
+                                  <li class="na"><i class="bx bx-x"></i><span>Content (section) Creation</span> </li> 
+                                  <li class="na"><i class="bx bx-x"></i><span>Graphics (section) update</span></li>
+
+                              
+                                  
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+
+                          <div class="col-lg text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Premium Content Management</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center">Content Updates</li>
+                                    <li><i class="bx bx-check"></i>Content update (e.g. Address change)</li>
+                                    <li><i class="bx bx-check"></i>New Product Upload</li>
+                                    
+                                <li class="px-0 fw-bold text-center">Section update or creation</li>
+                                  <li><i class="bx bx-check"></i> Content (section) Creation</li> 
+                                  <li><i class="bx bx-check"></i>Graphics (section) update</li>
+
+                              
+                                  
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                          <div class="col-lg text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3>Lite Content Management</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center">Content Updates</li>
+                                  <li class="na"><i class="bi bi-dash-lg"></i>New Product Upload</li>
+                                  <li class="na" ><i class="bi bi-dash-lg"></i>Content update (e.g. Address change)</li>
+                                
+                                <li class="px-0 fw-bold text-center">Section update or creation</li>
+                                  <li class="na"><i class="bx bx-x"></i><span> Content (section) Creation</span></li> 
+                                  <li class="na"><i class="bx bx-x"></i><span> Graphics (section) update</span></li>
+
+                              
+                                  
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div--><!--end div Content Management-->
+                      <div class="container Content_Management">
+                        <h3 class=" text-center  mt-5 mb-3  fs-4 ">Website Customization Works</h3>
+                        <div class="row">
+
+                          <div class="col-lg col-md-12 col-12 mt-4 mt-lg-0 text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Lite Website Customization Works</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Page creation & Update</li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Page creation (1 per year)</span></li>
+                                    <li class="na"><i class="bx bx-x"></i><span>Pages content creation & update</span> </li>
+                                    
+                                <li class="px-0 fw-bold text-center"> Web design update & Optimization</li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Graphic design & update</span> </li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Code Optimization</span> </li>
+                                  
+                              </ul>
+                              <a href="#" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+
+                          
+                          <div class="col-lg col-md-12 col-12 mt-4 mt-lg-0  text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Medium Website Customization Works</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Page creation & Update</li>
+                                    <li class="na"><i class="bi bi-dash-lg"></i>Page creation (1 per year)</li>
+                                    <li class="na"><i class="bx bx-x"></i><span>Pages content creation & update</span> </li>
+                                    
+                                <li class="px-0 fw-bold text-center"> Web design update & Optimization</li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Graphic design & update</span> </li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Code Optimization</span> </li>
+
+                              
+                                  
+                              </ul>
+                              <a href="contact#contact-destination" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+
+                        
+                          <div class="col-lg col-md-12 col-12 mt-4 mt-lg-0  text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Premium Website Customization Works</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Page creation & Update</li>
+                                    <li><i class="bx bx-check"></i>Page creation (2 per year)</li>
+                                    <li><i class="bx bx-check"></i>Pages content creation & update</li>
+                                    
+                                <li class="px-0 fw-bold text-center">Web design update & Optimization</li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Graphic design & update</span> </li>
+                                    <li class="na"><i class="bx bx-x"></i><span> Code Optimization</span> </li>
+
+                              
+                                  
+                              </ul>
+                              <a href="contact#contact-destination" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                            
+                          <div class="col-lg col-md-12 col-12 mt-4 mt-lg-0  text-center " data-aos="fade-up" data-aos-delay="100">
+                            <div class="box">
+                              <h3> Custom Website Customization Works</h3>
+                              <ul>
+                                <li class="px-0 fw-bold text-center"> Page creation & Update</li>
+                                    <li><i class="bx bx-check"></i>Page creation (4 per year)</li>
+                                    <li><i class="bx bx-check"></i>Pages content creation & update</li>
+                                    
+                                <li class="px-0 fw-bold text-center">Web design update & Optimization</li>
+                                <li><i class="bx bx-check"></i><span> Graphic design & update</span> </li>
+                                <li><i class="bx bx-check"></i><span> Code Optimization</span> </li>
+
+                              
+                                  
+                              </ul>
+                              <a href="contact#contact-destination" class="buy-btn">Get Started</a>
+                            </div>
+                          </div>
+                        </div><!--end div row-->
+
+                      </div><!--end div Content Management-->
+                    
+                  </div>
+                </div>
+            </div>
     </section>
 
 </main>
