@@ -366,8 +366,8 @@
             <div class="text-center mb-5">
                <h3 class="fw-bold" id="data"> Get your website running smoothly</h3>
             </div>
-            <div class="align-items-center gy-3 gx-md-4 flex-md-row d-flex flex-column-reverse my-5">
-                <div class=" col-md mx-3 align-items-center p-3"  data-aos="fade-right">
+            <div class="align-items-center gy-3 gx-md-4 row my-5">
+                <div class=" col-lg col-12 mx-3 align-items-center p-3"  data-aos="fade-right">
                     <h2 class="fw-light mb-3">Web Maintenance Service </h2>
                     <p class="lh-lg">
                     As a business owner, you know the importance of keeping your website and apps up and running. But what if they're not running as smoothly as they should? In this situation, 
@@ -376,15 +376,15 @@
                     </p>
                     <!--a type="button" class="btn  btn-outline-primary mt-3">Subscribe</a-->
                 </div>
-                <div class=" col-md p-3" data-aos="fade-left">
-                    <div class="">
+                <div class=" col-12 col-lg p-3" data-aos="fade-left">
+                    
                         <img src="{{asset('img/dataanalytics2.jpg')}}" alt="oups l'image ne s'est pas affiché" class="w-100 shadow rounded-5">
-                    </div>
+                    
                 </div>
                
                 
             </div>
-            <div class=" align-items-center gy-3 gx-md-4 flex-md-row my-4">
+            <div class=" align-items-center gy-3 gx-md-4 row my-4">
               <div class="text-center">
                 <h2 class="fw-light my-3">Why you should keep your website up-to-date</h2>
                 <p class="text-center">Your website is like your business card. It’s one of the first things potential customers will see, so you want to make sure it’s up-to-date and reflects well on your business. Here are a few reasons why you should keep your website up-to-date:</p>
@@ -422,8 +422,8 @@
                     <p >The following are our pricing systems</p>
                   </div>
                   <div class="maintenance">
-                      <div class="flex-md-row d-flex flex-column mt-5 py-2   gy-3 gx-md-4 ">
-                        <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
+                      <div class="row mt-5 py-2   gy-3 gx-md-4 ">
+                        <div class="col-12 col-lg row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
                             <h5 class=" text-center mt-3">Lite</h5>
                             <h6 class="light mb-3 text-center">From <sup>$</sup>69.99 </h6>
                             <div class="col">
@@ -431,7 +431,7 @@
 
                             </div>
                         </div>
-                        <div class="col row mx-2 shadow p-3 mb-5 rounded website-maintenance">
+                        <div class="col-12 col-lg row mx-2 shadow p-3 mb-5 rounded website-maintenance">
                             <h5 class=" text-center mt-3">Medium</h5>
                             <h6 class="light mb-3 text-center">From <sup>$</sup>79.99 </h6>
                             <div class="col">
@@ -440,7 +440,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col row mx-2 shadow p-3 mb-5  rounded social-management">
+                        <div class="col-12 col-lg row mx-2 shadow p-3 mb-5  rounded social-management">
                             <h5 class=" text-center mt-3">Premium</h5>
                             <h6 class="light mb-3 text-center">From <sup>$</sup>99.99 </h6>
                             <div class="col">
@@ -449,7 +449,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
+                        <div class="col-12 col-lg row  mx-2 py-3 shadow p-3 mb-5  rounded website-development">
                             <h5 class=" text-center mt-3">Custom</h5>
                             <h6 class="light mb-3 text-center">From <sup>$</sup>149.99 </h6>
                             <div class="col">

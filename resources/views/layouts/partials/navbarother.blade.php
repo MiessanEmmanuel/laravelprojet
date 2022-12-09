@@ -14,8 +14,8 @@
       <li><a class="nav-link scrollto {{$value_menu_about?? ''}}" href="about">About</a></li>
       <li class="dropdown"><a class="nav-link scrollto {{$value_menu_ecommerce?? ''}}" href="ecommerce"><span>E-commerce</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Membership</a></li>
-              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="ecommerce#membership-destination">Membership</a></li>
+              <li><a href="ecommerce#digital-marketing-destination">Digital Marketing</a></li>
             </ul>
       </li>
       <li class="dropdown"><a class="nav-link scrollto {{$value_menu_consulting?? ''}} " href="consulting"><span>Consulting</span> <i class="bi bi-chevron-down"></i></a>

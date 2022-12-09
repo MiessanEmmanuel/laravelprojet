@@ -123,7 +123,7 @@
                   <a href="consulting"><span>02</span> Business consulting</a>
                 </li>
                 <li>
-                  <a href="ecommerce#digital-marketing"><span>03</span> Digital Marketing </i></a>
+                  <a href="ecommerce#digital-marketing-destination"><span>03</span> Digital Marketing </i></a>
                   <!--div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <ul class="mt-2">
                       <li class="py-1 ">
