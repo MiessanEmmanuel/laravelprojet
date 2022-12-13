@@ -4,9 +4,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ApplyController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\JobapplyController;
+use App\Http\Controllers\ConnexionController;
 use App\Http\Controllers\EcommerceController;
 use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\SocialworkController;
@@ -22,6 +25,9 @@ use App\Http\Controllers\TraitementController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/connexion', [ ConnexionController::class , 'create'])->name('connexion');
+Route::post('/connexion', [ ConnexionController::class , 'store'])->name('traitementconnexion');
 
 Route::get('/', [ HomeController::class , 'create'])->name('home');
 Route::post('/', [ HomeController::class , 'store'])->name('newsletter');
@@ -48,6 +54,10 @@ Route::post('/pricing', [ PricingController::class , 'store']);
 
 Route::get('/service', [ ServiceController::class , 'create'])->name('service');
 Route::post('/service', [ ServiceController::class , 'store']);
+
+Route::get('/apply', [ ApplyController::class , 'create'])->name('Apply');
+
+Route::get('/jobapply', [ JobapplyController::class , 'create'])->name('Jobapply');
 
 Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 

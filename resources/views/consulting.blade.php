@@ -397,15 +397,15 @@
                         </p>
                   </div>
                   <div class="col-12 col-md-12 col-lg mx-2 shadow p-3 mb-5  rounded website-maintenance">
-                        <h5 class=" text-center my-3">It Keeps You Competitive </h5>
+                        <h5 class=" text-center my-3">It Improves Customer Experience </h5>
                         <p>
-                          If your website is looking dated, it can make potential customers think your business is, too. Keeping your site up-to-date shows that you’re keeping up with the latest trends and technologies.              
+                          A dated website can be hard to navigate and may not work well on mobile devices. This can cause potential customers to leave your site without ever contacting you. By keeping your site up-to-date, you can ensure that customers have a positive experience and are more likely to contact you.
                         </p>
                   </div>
                   <div class="col-12  col-md-12 col-lg mx-2 shadow p-3 mb-5  rounded website-maintenance">
-                        <h5 class=" text-center my-3">It Keeps You Competitive </h5>
+                        <h5 class=" text-center my-3">It Makes You Look Professional</h5>
                         <p>
-                          If your website is looking dated, it can make potential customers think your business is, too. Keeping your site up-to-date shows that you’re keeping up with the latest trends and technologies.              
+                          First impressions matter, and a dated website can give potential customers the wrong impression. An outdated website can make you look like you don’t care about your business or that you’re not willing to invest in it. Keeping your site up-to-date shows that you take pride in your business and are serious about providing a quality product or service.
                         </p>
                   </div>
         
@@ -784,3 +784,7 @@
 </main>
 
 @endsection('content')
+
+@section('newsletter')
+  @include('layouts/partials/footer')
+@endsection('newsletter')

@@ -91,4 +91,9 @@
       
     </section>
 </main><!-- End About Us main -->
+
 @endsection('content')
+
+@section('newsletter')
+  @include('layouts/partials/footer')
+@endsection('newsletter')

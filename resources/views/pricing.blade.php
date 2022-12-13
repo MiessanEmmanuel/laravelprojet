@@ -713,3 +713,7 @@
   </section>
 </main>
 @endsection('content')
+
+@section('newsletter')
+  @include('layouts/partials/footer')
+@endsection('newsletter')

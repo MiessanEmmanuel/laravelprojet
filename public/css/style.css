@@ -2175,3 +2175,37 @@ ecommerce
   font-size: 25px;
   margin: 15px 0;
 }
+
+/*----------------------------------------------------------------
+APPLY
+----------------------------------------------------------------*/
+
+#apply .description-apply{
+  text-align:center;
+  margin: 10px 00px;
+}
+#apply  .description-apply h2{
+  font-size: 28px !important;
+  color: #37517e;
+  font-weight: bold;
+}
+
+#apply .description-apply p{
+  font-size: 23px !important;
+  font-weight: lighter;
+}
+#apply .jobs{
+  width: 60%;
+  margin: 10px auto;
+  border: 4px solid #37517e;
+  border-radius: 20px;
+  
+}
+#apply .jobs div{
+  border-bottom: 1px solid #37517e;
+  padding: 10px;
+}
+#apply .jobs div:last-child{
+  border: none;
+}
+
