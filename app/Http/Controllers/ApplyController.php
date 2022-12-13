@@ -2,15 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Apply;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class ApplyController extends Controller
 {
     public function create()
     {
-        $title = 'Apply' ;
+        $title = 'Apply';
+        $jobapplys = Apply::all('lib');
         return view('apply', [
-            'title' =>  $title]);
+            'title' =>  $title,
+            'jobapplys' =>  $jobapplys]);
     }
 }

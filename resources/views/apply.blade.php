@@ -14,7 +14,9 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, ipsam?</p>
         </div>
         <div class="jobs">
-                
+             @foreach($jobapplys as $jobapply)   
+                <div>{{$jobapply->lib}}<i class="bi bi-chevron-right"></i></div>
+             @endforeach
         </div>
     </section>
 </main>
