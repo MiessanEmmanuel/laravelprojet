@@ -13,12 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('applies', function (Blueprint $table) {
-            $table->id();
-            $table->string('lib');
-            $table->text('location');
-            $table->string('type');
-            $table->timestamps();
+        Schema::table('applies', function (Blueprint $table) {
+            $table->text('description');
         });
     }
 
@@ -29,8 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('applies', function($table) {
-            $table->string('category');
-         });
+        Schema::table('applies', function (Blueprint $table) {
+            //
+        });
     }
 };

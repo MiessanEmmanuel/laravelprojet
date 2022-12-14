@@ -13,7 +13,6 @@ class HomeController extends Controller
     {
         $title = 'Home' ;
         return view('home',[
-            
             'title' =>  $title ]);
     }
     

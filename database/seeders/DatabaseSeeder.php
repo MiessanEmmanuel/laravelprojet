@@ -17,8 +17,9 @@ class DatabaseSeeder extends Seeder
     {
         DB::table('applies')->insert([
             'lib' => 'Digital marketing',
-            'location' => 'Abudja',
-            'type' => 'Full time'
+           'description'=> 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam eos minima vel animi nisi expedita libero quisquam! Quia reiciendis minima laboriosam autem eius provident error iure delectus totam dignissimos.',
+            'location' => 'Paris',
+            'type' => 'Freelance'
         ]);
     }
 }

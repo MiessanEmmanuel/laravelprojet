@@ -58,6 +58,7 @@ Route::post('/service', [ ServiceController::class , 'store']);
 Route::get('/apply', [ ApplyController::class , 'create'])->name('Apply');
 
 Route::get('/jobapply', [ JobapplyController::class , 'create'])->name('Jobapply');
+Route::get('/jobapply/{job}', [ JobapplyController::class , 'store'] );
 
 Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 

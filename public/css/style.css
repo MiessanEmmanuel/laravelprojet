@@ -2212,9 +2212,63 @@ APPLY
 #apply .jobs div:last-child{
   border: none;
 }
+#apply .jobs div a{
+  text-decoration: none;
+  color: #37517e;
+}
+#apply .jobs div a:hover{
+  text-decoration: underline;
+  color:#209dd8;
+}
 #apply .jobs div i{
   position: absolute;
   right:0; top:20;
   padding-right:30px;
   color:#37517e;
 }
+#apply .jobs div i:hover{
+  color:#209dd8;
+}
+
+/*----------------------------------------------------------------
+JOBAPPLY
+----------------------------------------------------------------*/
+#job-apply .bar-title{
+  color:#37517e;
+  font-size: 18px;
+  text-align: center;
+}
+#job-apply .content-job{
+  border-bottom: 1px solid rgba(134, 131, 131, 0.767);
+  text-align: center;
+}
+#job-apply .content-job:last-child{
+  border-bottom: none;
+  
+}
+#job-apply .content-job .title-job{
+ font-weight: bold;
+ text-align: initial;
+  
+}
+#job-apply .content-job .description-job{
+  text-align: justify;
+  padding: 0px 30px;
+  line-height: 30px;
+  
+ }
+ #job-apply .content-job .btn{
+  background-color:#37517e;
+  color: white;
+  display: block;
+  margin: 0  auto;
+  width: 60%;
+  transition: all 0.5s;
+ }
+ #job-apply .content-job .btn:hover{
+  background-color:#527abe;
+  color: white;
+  
+ }
+
+

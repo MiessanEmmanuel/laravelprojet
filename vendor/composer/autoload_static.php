@@ -538,6 +538,7 @@ class ComposerStaticInitd5ba26b5cb08bb744113fc501e2bb197
         'App\\Http\\Controllers\\ConsultingController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConsultingController.php',
         'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\Devcontroller' => __DIR__ . '/../..' . '/app/Http/Controllers/Devcontroller.php',
         'App\\Http\\Controllers\\EcommerceController' => __DIR__ . '/../..' . '/app/Http/Controllers/EcommerceController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\JobapplyController' => __DIR__ . '/../..' . '/app/Http/Controllers/JobapplyController.php',

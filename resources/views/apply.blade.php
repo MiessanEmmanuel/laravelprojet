@@ -15,7 +15,7 @@
         </div>
         <div class="jobs">
              @foreach($jobapplys as $jobapply)   
-                <div>{{$jobapply->lib}}<i class="bi bi-chevron-right"></i></div>
+                <div><a href="jobapply/{{str_replace(' ','-',$jobapply->lib)}}">{{$jobapply->lib}}<i class="bi bi-chevron-right"></i></a></div>
              @endforeach
         </div>
     </section>

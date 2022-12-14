@@ -14,6 +14,7 @@ return array(
     'App\\Http\\Controllers\\ConsultingController' => $baseDir . '/app/Http/Controllers/ConsultingController.php',
     'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\Devcontroller' => $baseDir . '/app/Http/Controllers/Devcontroller.php',
     'App\\Http\\Controllers\\EcommerceController' => $baseDir . '/app/Http/Controllers/EcommerceController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\JobapplyController' => $baseDir . '/app/Http/Controllers/JobapplyController.php',
