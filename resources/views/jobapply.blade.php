@@ -9,6 +9,26 @@
 <main id="job-apply">
     <div class="container">
     <div class="fw-bold fs-1 text-center mt-4">Lorem</div>
+    <div class="navbar {{$affichage_trie? ''}}">
+           <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Type Job
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <?php
+                            $n = 1;
+                        ?>
+                    @foreach($jobstype as $typ)
+                        <li><a class="dropdown-item" href="{{str_replace(' ','-',$title)}}/{{str_replace(' ','-',$typ->type)}}">{{$typ->type}}</a></li>
+
+                        <?php
+                            $n= $n +1
+                        ?>
+                    @endforeach
+            
+                </ul>
+            </div>
+    </div>
     <div class=" content-job justify-content-between">
             <div class=" content-job row mt-5 pb-5 bar-title">
                 <div class="col align-self-center fw-bold">JOB</div>

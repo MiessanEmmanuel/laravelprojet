@@ -14,15 +14,5 @@ class JobapplyController extends Controller
         return view('jobapply', [
             'title' =>  $title]);
     }
-    public function store($job)
-    {
-        
-        $title = str_replace('-',' ',$job) ;
-        $jobs = Apply::where('lib',str_replace('-',' ',$job))->get();
-        //dd( $job);
-        return view('jobapply', [
-            'title' =>  $title,
-            'jobs' =>  $jobs]);
-            
-    }
+    
 }
