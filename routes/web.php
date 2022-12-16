@@ -14,6 +14,7 @@ use App\Http\Controllers\EcommerceController;
 use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\SocialworkController;
 use App\Http\Controllers\TraitementController;
+use App\Http\Controllers\JobapplyformController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,6 +59,8 @@ Route::post('/service', [ ServiceController::class , 'store']);
 Route::get('/apply', [ ApplyController::class , 'create'])->name('Apply');
 Route::get('/apply/{job}', [ ApplyController::class , 'store']);
 Route::get('/apply/{job}/{valueclause}', [ ApplyController::class , 'sort'])->name('trietype');
+
+Route::get('/jobapplyform/{id}', [ JobapplyformController::class , 'create']);
 
 Route::get('/portfolio1', [ HomeController::class , 'portfolio1'])->name('portfolio1');
 

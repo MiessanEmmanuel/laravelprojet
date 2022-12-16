@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qavaa|{{ $title }}</title>
+    <title>Qavaa | {{ $title??"" }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    
     <meta content="" name="description">
@@ -61,7 +61,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="apply">Apply</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/apply">Apply</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Partner with us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Our initiatives</a></li>
             </ul>
@@ -70,9 +70,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="ecommerce">E-Commerce</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="consulting">Consulting</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="socialwork">Social Work</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/ecommerce">E-Commerce</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/consulting">Consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/socialwork">Social Work</a></li>
             </ul>
           </div>
 

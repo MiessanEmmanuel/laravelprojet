@@ -24,13 +24,13 @@ class ApplyController extends Controller
         $jobs = Apply::where('lib',str_replace('-',' ',$job))
                         ->get();
         $jobstype = Apply::distinct()->where('lib',str_replace('-',' ',$job))
-                                            ->get('type'); 
+                                            ->get('type');
         //dd($jobstype);           
         //dd( $jobs);
         return view('jobapply', [
             'title' =>  $title,
             'jobs' =>  $jobs,
-           
+            'jobstype' => $jobstype
             ]);
             
     }
@@ -41,8 +41,8 @@ class ApplyController extends Controller
                         ->get();
         $affichage_trie = 'd-none';
         //dd($jobs);
-        $jobstype = Apply::distinct()->where('lib',str_replace('-',' ',$job))
-                                     ->get('type');    
+        $jobstype = Apply::distinct()->where('lib',str_replace('-',' ',$job)) ->get('type');
+            
         //dd($jobstype);           
        // dd( $jobs);
         return view('jobapply', [
@@ -50,7 +50,7 @@ class ApplyController extends Controller
             'jobs' =>  $jobs,
             'valueclause' => $valueclause,
             'affichage_trie' => $affichage_trie,
-            'jobstype' =>  $jobstype
+            'jobstype' =>  $jobstype,
             ]);
     }
 }

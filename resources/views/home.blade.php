@@ -226,10 +226,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content align-self-center" data-aos="fade-left" data-aos-delay="100">
             <h4>We are the right fit for your project if</h4>
-            <p class="fst-italic">
-              If the followings are the reason why you are still not setup then it time to setup, contact us now
-            </p>
-
+          
             <div class="skills-content">
 
               <div class="progress">
@@ -265,11 +262,11 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Do you have a project in mind? Schedule a free meeting today.</h3>
+          <div class="col-lg-9 text-center text-lg-start align-self-center">
+            <h3 class="">Do you have a project in mind? Schedule a free meeting today.</h3>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn " href="#">Call To Action</a>
           </div>
         </div>
 

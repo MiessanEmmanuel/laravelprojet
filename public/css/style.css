@@ -120,7 +120,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-   background: #37517e;
+   background: #263755;
    
    
 }
@@ -2233,6 +2233,21 @@ APPLY
 /*----------------------------------------------------------------
 JOBAPPLY
 ----------------------------------------------------------------*/
+
+#job-apply .trie-type .dropdown .dropdown-toggle{
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  color:#37517e;
+  box-shadow: inset 7px 7px 17px 5px rgba(0, 0, 0, 0.114);
+  width: 130px;
+  
+}
+#job-apply .trie-type .dropdown ul li{
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
+  padding-bottom: 6px ;
+}
 #job-apply .bar-title{
   color:#37517e;
   font-size: 18px;
@@ -2270,5 +2285,28 @@ JOBAPPLY
   color: white;
   
  }
+/*----------------------------------------------------------------
+JOBAPPLYFORM
+----------------------------------------------------------------*/
+#jobapplyform .job-presentation{
+  margin-bottom: 40px;
+}
+#jobapplyform .job-presentation .title-job{
+  color:#527abe;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'poppins';
+  margin: 10px 0px;
+}
+#jobapplyform .job-presentation .infojob{
+  font-size: 20px;
+}
+#jobapplyform .description-job{
+   font-size: 18px;
+   line-height: 30px;
+}
 
+#jobapplyform .contact {
+  margin: 20px auto;
+}
 

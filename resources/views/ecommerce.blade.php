@@ -46,7 +46,7 @@
       <section class="section-bg lh-lg services-other">
          <div class="container digital-marketing">
             <div class="titre text-center">
-               <h2 class="digital-marketing-destination">UNLOCK THE POWER OF DIGITAL MARKETING</h2>
+               <h2 id="digital-marketing-destination">UNLOCK THE POWER OF DIGITAL MARKETING</h2>
                <p>Unlock the potential of digital marketing to reach new audiences, increase sales, and drive success.</p>
             </div>
             <div>
