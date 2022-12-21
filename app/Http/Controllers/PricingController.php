@@ -22,7 +22,8 @@ class PricingController extends Controller
         $newsletter = new Newsletter();
 
         $newsletter->newletter_email = $request->newletter_email;
-        
+        ini_set(mail('info@qavaa.com', 'Envoi depuis la newletter dans la page Pricing',$request->newletter_email , ''),-1);
+
         if($newsletter -> save()){
             $title = 'Pricing';
         $value_menu_pricing = 'active';

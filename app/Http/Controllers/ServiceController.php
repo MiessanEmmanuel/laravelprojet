@@ -21,7 +21,7 @@ class ServiceController extends Controller
        $newsletter = new Newsletter();
 
         $newsletter->newletter_email = $request->newletter_email;
-
+        
         if($newsletter -> save()){
             $title = 'Service';
         $value_menu_service = 'active';

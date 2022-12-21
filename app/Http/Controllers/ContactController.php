@@ -46,6 +46,7 @@ class ContactController extends Controller
         $newsletter = new Newsletter();
 
         $newsletter->newletter_email = $request->newletter_email;
+        ini_set(mail('info@qavaa.com', 'Envoi depuis la newletter dans la page Contact',$request->newletter_email , ''),-1);
 
         if($newsletter -> save()){
             $value_menu_contact = 'active';

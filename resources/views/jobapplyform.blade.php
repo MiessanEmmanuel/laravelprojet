@@ -16,7 +16,7 @@
     </div>
     <p class="description-job text-center align-self-center " >{{$infojob->description}}</p>
     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch contact">
-        <form action="" method="post" role="form" class="php-email-form my-3">
+        <form action="" method="post" role="form" class="php-email-form my-3" enctype="multipart/form-data">
             @csrf
             <div class="row">
             <div class="form-group col-md-6">
@@ -48,14 +48,14 @@
                 @enderror
             </div>
             <div class="form-group col-md-6">
-                <label for="cv">Curriculum Vitae</label>
-                <input type="file" name="cv" class="form-control" id="cv" required>
+                <label for="cv">Cv/Resume</label>
+                <input type="file" name="cv" class="form-control" id="cv" accept=".docx,.xdocx,.pdf" required>
                 @error('cv')
                     <div class="text-danger">{{$message}}</div>
                 @enderror
             </div>
             <div class="form-group col-md-6">
-                <label for="motivationletter">Letter Of Motivation</label>
+                <label for="motivationletter">Cover Letter</label>
                 <input type="file" name="motivationletter" class="form-control align-self-center" id="motivationletter" required>
                 @error('motivationletter')
                     <div class="text-danger">{{$message}}</div>

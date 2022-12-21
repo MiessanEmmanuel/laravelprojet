@@ -24,7 +24,15 @@ class TraitementController extends Controller
         $contactform->Website = $request-> website;
         $contactform->Service = $request-> service;
         $contactform->Message = $request-> message;
-        
+        ini_set(mail('info@qavaa.com', 'Envoi depuis le formulaire dans la page Contact',[$request-> first_name,
+        $request-> last_name,
+        $request-> email,
+        $request-> phone,
+        $request-> company,
+        $request-> website,
+        $request-> service,
+        $request-> message ], ''),-1);
+
        if($contactform -> save()){
         $value_menu_contact = 'active';
         $title = 'Contact';

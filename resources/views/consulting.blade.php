@@ -79,25 +79,7 @@
                             </p>
                             
                         </div>
-                    </div>
-                </div>
-                <div class=" py-2 flex-md-row d-flex flex-column  gy-3 gx-md-4 ">
-                    <div class="col row mx-2 py-3 shadow p-3 mb-5 rounded website-development">
-                        <h5 class=" text-center my-3">SEO</h5>
-                        <div class="col">
-                            <p>
-                                In other to promote your site visibility, we can optimize your website with search engine.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col row mx-2 shadow p-3 mb-5  rounded website-maintenance">
-                        <h5 class=" text-center my-3">Speed</h5>
-
-                        <div class="col">
-                            <p>
-                                We make sure your site is not overloaded so as to enable your visitors enjoy the flexibility of your site
-                            </p>
-                        </div>
+                        
                     </div>
                     <div class="col row mx-2 shadow p-3 mb-5 rounded social-management">
                         <h5 class=" text-center my-3">Custom Email</h5>
@@ -109,12 +91,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="text-center mb-5"  >
-                        <h3 class="fw-light" id="web">Others Features</h3>
-                </div>
-                <div class=" row py-2   gy-3 gx-md-4 ">
+                 <div class=" row py-2   gy-3 gx-md-4 ">
                         <div class="col row mx-2 py-3 shadow p-3 mb-5 rounded website-development">
                             <h5 class=" text-center my-3">SEO Keyword Research (Search Terms) & Integration</h5>
                         </div>
@@ -126,6 +103,12 @@
                         </div>
                         
                 </div>
+            </div>
+            <div class="container">
+                <div class="text-center mb-5"  >
+                        <h3 class="fw-light" id="web">Others Features</h3>
+                </div>
+               
                 <div class="row py-2 gy-3 gx-md-4 ">
                         <div class="col row mx-2 py-3 shadow p-3 mb-5 rounded website-development">
                             <h5 class=" text-center my-3">Content Development</h5>

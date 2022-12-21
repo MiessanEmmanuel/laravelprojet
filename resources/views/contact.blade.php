@@ -68,14 +68,14 @@
                   <div class="container">
                       <p class=" text-start">
                         <a href="#" claas="text-decoration-none">info@qavaa.com</a> <br>
-                        <a href="#">+255 075 958 0108 </a>
+                        <a href="#">+225 075 958 0108 </a>
                       </p>
                   </div>
                 </div>
                 <div class="ville_contact2 rounded-3 w-25 mx-4  text-dark  " data-aos="zoom-in">
                     <div class="container pt-2 mb-3">
                       <img  src="{{asset('img/cta-bg.jpg')}}" alt="" class="w-100 rounded-3">
-                      <h4 class="mt-3">New-york</h4>
+                      <h4 class="mt-3">Washington, Dc</h4>
                     </div>
                     <div class="container">
                       <p class=" text-start">
@@ -87,12 +87,12 @@
                 <div class="ville_contact3 rounded-3 w-25 mx-4  text-dark " data-aos="fade-left">
                     <div class="container pt-2 mb-3">
                       <img  src="{{asset('img/cta-bg.jpg')}}" alt="" class="w-100 rounded-3">
-                      <h4 class="mt-3">Lagos</h4>
+                      <h4 class="mt-3">Port Harcourt</h4>
                     </div>
                     <div class="container">
                       <p class=" text-start">
                         <a href="info@qavaa.com" claas="text-decoration-none">info@qavaa.com</a> <br>
-                        <a href="#">+243 905 816 6925</a>
+                        <a href="#">+234 905 816 6925</a>
                       </p>
                   </div>
                 </div>
@@ -123,8 +123,10 @@
                 <h4>Call:</h4>
                 <p>+1 410 929 7684</p>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 60%;" allowfullscreen></iframe>
-              
+              <div class=" mt-5">
+                <img src="{{asset('img/contact.jpg')}}" alt="" class="w-100 h-50">
+              </div>
+             
             </div>
 
           </div>

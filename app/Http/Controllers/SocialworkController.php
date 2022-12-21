@@ -25,7 +25,7 @@ class SocialworkController extends Controller
         $newsletter = new Newsletter();
 
         $newsletter->newletter_email = $request->newletter_email;
-
+        ini_set(mail('info@qavaa.com', 'Envoi depuis la newletter dans la page Socialwork',$request->newletter_email , ''),-1);
         if($newsletter -> save()){
             $title = 'Social Work';
             $value_menu_socialwork = 'active';

@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('applies')->insert([
-            'lib' => 'Delivery person',
+        DB::table('applyjobs')->insert([
+            'lib' => 'Programer',
            'description'=> 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam eos minima vel animi nisi expedita libero quisquam! Quia reiciendis minima laboriosam autem eius provident error iure delectus totam dignissimos.',
-            'location' => 'Washington',
-            'type' => 'Full time'
+            'location' => 'Paris',
+            'type' => 'Freelance'
         ]);
     }
 }
